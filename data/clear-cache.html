@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clear BookBar Cache</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        .danger {
+            background: #f44336;
+        }
+        .danger:hover {
+            background: #da190b;
+        }
+        .info {
+            background: #2196F3;
+            color: white;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        .success {
+            background: #4CAF50;
+            color: white;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔧 BookBar Cache Clearing</h1>
+        
+        <div class="info">
+            <strong>⚠️ Warning:</strong> This operation will clear all BookBar data in your browser and reload the page.
+        </div>
+        
+        <div id="status" class="success">
+            ✅ Cache cleared! Reloading page...
+        </div>
+        
+        <h3>What will be done:</h3>
+        <ul>
+            <li>Old book data in localStorage will be cleared</li>
+            <li>New <code>fantasy-books.json</code> file will be loaded</li>
+            <li>Current cover images will be displayed</li>
+        </ul>
+        
+        <button onclick="clearCache()">🗑️ Clear Cache and Reload</button>
+        <button class="danger" onclick="clearAll()">⚠️ Clear All Data</button>
+        
+        <h3>Manual Clearing:</h3>
+        <p>You can run the following command in browser console (F12):</p>
+        <code style="background: #f0f0f0; padding: 10px; display: block; border-radius: 4px; margin: 10px 0;">
+            localStorage.removeItem('virtualBookshelf_library');<br>
+            localStorage.removeItem('virtualBookshelf_userData');<br>
+            location.reload();
+        </code>
+    </div>
+    
+    <script>
+        function clearCache() {
+            // Clear BookBar-related localStorage data
+            localStorage.removeItem('virtualBookshelf_library');
+            localStorage.removeItem('virtualBookshelf_userData');
+            
+            // Show status message
+            document.getElementById('status').style.display = 'block';
+            
+            // Reload page after 1 second
+            setTimeout(() => {
+                location.reload();
+            }, 1000);
+        }
+        
+        function clearAll() {
+            if (confirm('Are you sure you want to clear all localStorage data?')) {
+                localStorage.clear();
+                document.getElementById('status').style.display = 'block';
+                setTimeout(() => {
+                    location.reload();
+                }, 1000);
+            }
+        }
+    </script>
+</body>
+</html>
+

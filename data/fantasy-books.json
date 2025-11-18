@@ -1,0 +1,2648 @@
+{
+  "fantasy": [
+    {
+      "id": 1,
+      "title": "Alchemy of Secrets",
+      "author": "Stephanie Garber",
+      "genre": "Fantasy",
+      "description": "A novel of secrets, spells, and forgotten magic.",
+      "cover_image_url": "data/covers/cover_1.jpg",
+      "average_rating": 2.2087432661093493
+    },
+    {
+      "id": 2,
+      "title": "King Sorrow",
+      "author": "Joe Hill",
+      "genre": "Fantasy / Horror",
+      "description": "A dark and gripping fantasy from a master storyteller.",
+      "cover_image_url": "data/covers/cover_9.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 4,
+      "title": "Never Ever After",
+      "author": "Sue Lynn Tan",
+      "genre": "Fantasy / Fairytale",
+      "description": "A beautiful and enchanting retelling of classic myths.",
+      "cover_image_url": "data/covers/cover_14.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 5,
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "genre": "Fiction / Fantasy",
+      "description": "Between life and death, there is a library.",
+      "cover_image_url": "data/covers/cover_16.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 6,
+      "title": "Powerless",
+      "author": "Lauren Roberts",
+      "genre": "Fantasy / Romantasy",
+      "description": "A New York Times Best Seller fantasy novel about a world where power means everything.",
+      "cover_image_url": "data/covers/cover_17.jpg",
+      "average_rating": 4.6
+    },
+    {
+      "id": 7,
+      "title": "Reckless",
+      "author": "Lauren Roberts",
+      "genre": "Fantasy / Romantasy",
+      "description": "Sequel to Powerless, where the dangerous game continues.",
+      "cover_image_url": "data/covers/cover_18.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 8,
+      "title": "The Ballad of Songbirds and Snakes",
+      "author": "Suzanne Collins",
+      "genre": "Dystopian / Young Adult",
+      "description": "A prequel to the Hunger Games series.",
+      "cover_image_url": "data/covers/cover_19.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 9,
+      "title": "Shield of Sparrows",
+      "author": "Devney Perry",
+      "genre": "Fantasy / Romance",
+      "description": "A world on the verge of destruction, and the strength to become a Guardian.",
+      "cover_image_url": "data/covers/cover_21.jpg",
+      "average_rating": 2.0727441370933106
+    },
+    {
+      "id": 10,
+      "title": "Once Upon a Broken Heart",
+      "author": "Stephanie Garber",
+      "genre": "Fantasy / Romantasy",
+      "description": "Evangeline strikes a deal with the charismatic but wicked Prince of Hearts.",
+      "cover_image_url": "data/covers/cover_22.jpg",
+      "average_rating": 1.0597975810031535
+    },
+    {
+      "id": 11,
+      "title": "A Curse for True Love",
+      "author": "Stephanie Garber",
+      "genre": "Fantasy / Romantasy",
+      "description": "The breathtaking conclusion to the Once Upon a Broken Heart trilogy.",
+      "cover_image_url": "data/covers/cover_23.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 12,
+      "title": "Heartless Hunter",
+      "author": "Kristen Ciccarelli",
+      "genre": "Fantasy",
+      "description": "A fierce heroine in a world where power means everything.",
+      "cover_image_url": "data/covers/cover_24.jpg",
+      "average_rating": 2.0694258038817877
+    },
+    {
+      "id": 13,
+      "title": "The Ballad of Never After",
+      "author": "Stephanie Garber",
+      "genre": "Fantasy / Romantasy",
+      "description": "The jaw-dropping sequel to Once Upon a Broken Heart.",
+      "cover_image_url": "data/covers/cover_25.jpg",
+      "average_rating": 1.2281319661996015
+    },
+    {
+      "id": 14,
+      "title": "Assistant to the Villain",
+      "author": "Hannah Nicole Maehrer",
+      "genre": "Fantasy / Comedy",
+      "description": "Once Upon a Time meets The Office.",
+      "cover_image_url": "data/covers/cover_26.jpg",
+      "average_rating": 1.1808335236252683
+    },
+    {
+      "id": 15,
+      "title": "Twice",
+      "author": "Mitch Albom",
+      "genre": "Fiction / Fantasy",
+      "description": "A story that explores the human heart, the impact of choices, and the concept of a 'second chance'.",
+      "cover_image_url": "data/covers/cover_27.jpg",
+      "average_rating": 3.8
+    },
+    {
+      "id": 16,
+      "title": "Divine Rivals",
+      "author": "Rebecca Ross",
+      "genre": "Fantasy / Romance",
+      "description": "A beautiful and romantic story set against an imaginative, dangerous world.",
+      "cover_image_url": "data/covers/cover_30.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 17,
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "genre": "Mystery / Psychological Thriller",
+      "description": "A criminal psychotherapist and his famous patient who refuses to speak.",
+      "cover_image_url": "data/covers/cover_31.jpg",
+      "average_rating": 4.1,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/9407338-L.jpg",
+        "downloaded_at": "2025-11-13T18:49:59.836Z"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "genre": "Mystery / Psychological Thriller",
+      "description": "A wife disappears on her fifth wedding anniversary, leaving a trail of clues.",
+      "cover_image_url": "data/covers/cover_32.jpg",
+      "average_rating": 1.0148026627811935,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/8368314-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:02.898Z"
+      }
+    },
+    {
+      "id": 19,
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "genre": "Mystery / Crime",
+      "description": "A journalist teams up with a hacker to investigate a disappearance.",
+      "cover_image_url": "data/covers/cover_34.jpg",
+      "average_rating": 4.3,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/11005892-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:06.523Z"
+      }
+    },
+    {
+      "id": 20,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery / Thriller",
+      "description": "A thrilling hunt for a historical secret involving ancient codes.",
+      "cover_image_url": "data/covers/cover_35.jpg",
+      "average_rating": 2.4642636009246823,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/9255229-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:09.435Z"
+      }
+    },
+    {
+      "id": 21,
+      "title": "The Woman in Cabin 10",
+      "author": "Ruth Ware",
+      "genre": "Mystery / Suspense",
+      "description": "A journalist witnesses a body thrown overboard from a cruise ship.",
+      "cover_image_url": "data/covers/cover_36.jpg",
+      "average_rating": 2.0580507158143653,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/8289386-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:12.455Z"
+      }
+    },
+    {
+      "id": 22,
+      "title": "In the Woods",
+      "author": "Tana French",
+      "genre": "Mystery / Police Procedural",
+      "description": "A detective investigates a murder that echoes his own past tragedy.",
+      "cover_image_url": "data/covers/cover_37.jpg",
+      "average_rating": 4.2,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/1474730-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:15.143Z"
+      }
+    },
+    {
+      "id": 23,
+      "title": "Before I Go to Sleep",
+      "author": "S. J. Watson",
+      "genre": "Psychological Thriller",
+      "description": "A woman wakes up every day with no memory of her life.",
+      "cover_image_url": "data/covers/cover_38.jpg",
+      "average_rating": 2.2215291623251243,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/8541749-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:17.926Z"
+      }
+    },
+    {
+      "id": 24,
+      "title": "The Dry",
+      "author": "Jane Harper",
+      "genre": "Mystery / Noir",
+      "description": "A detective returns to his drought-stricken hometown to face a murder.",
+      "cover_image_url": "data/covers/cover_39.jpg",
+      "average_rating": 4.3,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/9598043-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:20.828Z"
+      }
+    },
+    {
+      "id": 25,
+      "title": "Big Little Lies",
+      "author": "Liane Moriarty",
+      "genre": "Mystery / Domestic Thriller",
+      "description": "The hidden lives of three mothers intertwine, leading to a murder.",
+      "cover_image_url": "data/covers/cover_40.jpg",
+      "average_rating": 4.1,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/7352410-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:23.467Z"
+      }
+    },
+    {
+      "id": 26,
+      "title": "How to Solve Your Own Murder",
+      "author": "Kristen Perrin",
+      "genre": "Mystery / Cozy",
+      "description": "A woman receives a prediction of her own murder and sets out to solve it.",
+      "cover_image_url": "data/covers/cover_42.jpg",
+      "average_rating": 4.1,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/14606577-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:26.893Z"
+      }
+    },
+    {
+      "id": 27,
+      "title": "What Lies in the Woods",
+      "author": "Kate Alice Marshall",
+      "genre": "Thriller / Crime",
+      "description": "Three friends reunite after twenty-two years to confront a shared, dark secret.",
+      "cover_image_url": "data/covers/cover_44.jpg",
+      "average_rating": 1.0214888807089757,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/13121039-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:33.961Z"
+      }
+    },
+    {
+      "id": 28,
+      "title": "The First Gentleman",
+      "author": "Bill Clinton & James Patterson",
+      "genre": "Thriller / Political",
+      "description": "A high-stakes political thriller co-written by a former US President.",
+      "cover_image_url": "data/covers/cover_49.jpg",
+      "average_rating": 4.1,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15093328-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:39.787Z"
+      }
+    },
+    {
+      "id": 29,
+      "title": "Apostle's Cove",
+      "author": "William Kent Krueger",
+      "genre": "Mystery / Suspense",
+      "description": "A new novel in the Cork O'Connor mystery series.",
+      "cover_image_url": "data/covers/cover_50.jpg",
+      "average_rating": 4.4,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15119661-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:40.794Z"
+      }
+    },
+    {
+      "id": 30,
+      "title": "Survive the Night",
+      "author": "Riley Sager",
+      "genre": "Psychological Thriller",
+      "description": "A terrifying road trip where the passenger might be a killer.",
+      "cover_image_url": "data/covers/cover_53.jpg",
+      "average_rating": 4.2,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/10477704-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:44.629Z"
+      }
+    },
+    {
+      "id": 31,
+      "title": "The Stranger in the Lifeboat",
+      "author": "Mitch Albom",
+      "genre": "Fiction / Inspirational",
+      "description": "A spiritual fable about a group of shipwrecked survivors who find a stranger in the sea.",
+      "cover_image_url": "data/covers/cover_54.jpg",
+      "average_rating": 4.3,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/14598031-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:47.314Z"
+      }
+    },
+    {
+      "id": 32,
+      "title": "Cry Havoc",
+      "author": "Jack Carr",
+      "genre": "Thriller / Action",
+      "description": "The latest high-octane thriller in the James Reece series.",
+      "cover_image_url": "data/covers/cover_55.jpg",
+      "average_rating": 4.5,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15130684-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:48.889Z"
+      }
+    },
+    {
+      "id": 33,
+      "title": "Murder Takes a Vacation",
+      "author": "Laura Lippman",
+      "genre": "Mystery",
+      "description": "A collection of short mystery stories.",
+      "cover_image_url": "data/covers/cover_56.jpg",
+      "average_rating": 3.9,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15097914-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:50.297Z"
+      }
+    },
+    {
+      "id": 34,
+      "title": "One of Us is Back",
+      "author": "Karen M. McManus",
+      "genre": "Young Adult Mystery",
+      "description": "The final book in the One of Us Is Lying series.",
+      "cover_image_url": "data/covers/cover_57.jpg",
+      "average_rating": 2.2174676706154166,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/13298100-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:52.893Z"
+      }
+    },
+    {
+      "id": 35,
+      "title": "Denied Access",
+      "author": "Vince Flynn",
+      "genre": "Thriller / Political",
+      "description": "A thrilling political espionage novel.",
+      "cover_image_url": "data/covers/cover_59.jpg",
+      "average_rating": 1.271677609371277,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15128587-L.jpg",
+        "downloaded_at": "2025-11-13T18:50:55.249Z"
+      }
+    },
+    {
+      "id": 36,
+      "title": "The Housemaid's Secret",
+      "author": "Freida McFadden",
+      "genre": "Psychological Thriller",
+      "description": "A thrilling sequel where nothing is as it seems.",
+      "cover_image_url": "data/covers/cover_64.jpg",
+      "average_rating": 4.5,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/13439869-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:01.111Z"
+      }
+    },
+    {
+      "id": 37,
+      "title": "The Black Wolf",
+      "author": "Louise Penny",
+      "genre": "Mystery / Crime",
+      "description": "Inspector Gamache must solve a mystery in the Quebec countryside.",
+      "cover_image_url": "data/covers/cover_65.jpg",
+      "average_rating": 4.3,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15138053-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:03.007Z"
+      }
+    },
+    {
+      "id": 38,
+      "title": "The River Is Waiting",
+      "author": "Wally Lamb",
+      "genre": "Fiction",
+      "description": "A deep and emotional story about life's waiting moments.",
+      "cover_image_url": "data/covers/cover_66.jpg",
+      "average_rating": 3.9,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15093330-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:04.044Z"
+      }
+    },
+    {
+      "id": 39,
+      "title": "Good Girl, Bad Blood",
+      "author": "Holly Jackson",
+      "genre": "Mystery / Young Adult",
+      "description": "The sequel to A Good Girl's Guide to Murder.",
+      "cover_image_url": "data/covers/cover_67.jpg",
+      "average_rating": 2.496513432468247,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15132914-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:05.517Z"
+      }
+    },
+    {
+      "id": 40,
+      "title": "Rock Paper Scissors",
+      "author": "Alice Feeney",
+      "genre": "Psychological Thriller",
+      "description": "A couple wins a trip to a remote getaway, but one of them is hiding a secret.",
+      "cover_image_url": "data/covers/cover_68.jpg",
+      "average_rating": 1.1147274560243186,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/10826952-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:07.898Z"
+      }
+    },
+    {
+      "id": 41,
+      "title": "Play Nice",
+      "author": "Rachel Harrison",
+      "genre": "Thriller / Horror",
+      "description": "A twisted tale of suburban rivalry and dark secrets.",
+      "cover_image_url": "data/covers/cover_71.jpg",
+      "average_rating": 4.1,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15127164-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:11.516Z"
+      }
+    },
+    {
+      "id": 42,
+      "title": "The Paris Apartment",
+      "author": "Lucy Foley",
+      "genre": "Mystery / Thriller",
+      "description": "A woman visits her brother in Paris and finds herself embroiled in a dark mystery.",
+      "cover_image_url": "data/covers/cover_72.jpg",
+      "average_rating": 2.022021585754029,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/11541298-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:14.140Z"
+      }
+    },
+    {
+      "id": 43,
+      "title": "A Flicker in the Dark",
+      "author": "Stacy Willingham",
+      "genre": "Psychological Thriller",
+      "description": "A daughter of a serial killer is drawn into a new investigation.",
+      "cover_image_url": "data/covers/cover_73.jpg",
+      "average_rating": 4.3,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/11252944-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:16.785Z"
+      }
+    },
+    {
+      "id": 44,
+      "title": "The Lost Apothecary",
+      "author": "Sarah Penner",
+      "genre": "Historical Mystery",
+      "description": "A mystery that connects women across centuries.",
+      "cover_image_url": "data/covers/cover_75.jpg",
+      "average_rating": 4,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/10713533-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:19.967Z"
+      }
+    },
+    {
+      "id": 45,
+      "title": "Shroud",
+      "author": "Adrian Tchaikovsky",
+      "genre": "Science Fiction / Biopunk",
+      "description": "A thrilling and complex sci-fi adventure.",
+      "cover_image_url": "data/covers/cover_86.jpg",
+      "average_rating": 2.1578582870644274,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15093927-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:29.133Z"
+      }
+    },
+    {
+      "id": 46,
+      "title": "Hole in the Sky",
+      "author": "Daniel H. Wilson",
+      "genre": "Science Fiction / Post-Apocalyptic",
+      "description": "A gripping post-apocalyptic survival story.",
+      "cover_image_url": "data/covers/cover_93.jpg",
+      "average_rating": 4.2,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15130681-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:35.291Z"
+      }
+    },
+    {
+      "id": 47,
+      "title": "The Path of Ascension",
+      "author": "C. M. Mantis",
+      "genre": "Science Fiction / LitRPG",
+      "description": "Book 3 of the Path of Ascension series.",
+      "cover_image_url": "data/covers/cover_97.jpg",
+      "average_rating": 4.5,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15100225-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:39.066Z"
+      }
+    },
+    {
+      "id": 48,
+      "title": "Carls Doomsday Scenario",
+      "author": "Matt Dinniman",
+      "genre": "Science Fiction / LitRPG",
+      "description": "A LitRPG adventure about surviving a cosmic game show.",
+      "cover_image_url": "data/covers/cover_101.jpg",
+      "average_rating": 1.4670398779968732,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/11702962-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:43.634Z"
+      }
+    },
+    {
+      "id": 49,
+      "title": "The First to Die at the End",
+      "author": "Adam Silvera",
+      "genre": "Young Adult / Science Fiction",
+      "description": "A prequel to the emotional hit 'They Both Die at the End'.",
+      "cover_image_url": "data/covers/cover_104.jpg",
+      "average_rating": 1.1981802846196512,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/12468658-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:48.143Z"
+      }
+    },
+    {
+      "id": 50,
+      "title": "A Guardian and a Thief",
+      "author": "Megha Majumdar",
+      "genre": "Fiction / Dystopian",
+      "description": "A powerful story of class, ambition, and corruption.",
+      "cover_image_url": "data/covers/cover_105.jpg",
+      "average_rating": 1.4908405056868852,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15137825-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:49.526Z"
+      }
+    },
+    {
+      "id": 51,
+      "title": "A Psalm for the Wild-Built",
+      "author": "Becky Chambers",
+      "genre": "Science Fiction / Hopepunk",
+      "description": "A monk and a robot meet in a heartwarming future.",
+      "cover_image_url": "data/covers/cover_106.jpg",
+      "average_rating": 2.116863093394204,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/10476616-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:52.054Z"
+      }
+    },
+    {
+      "id": 52,
+      "title": "Sea of Tranquility",
+      "author": "Emily St. John Mandel",
+      "genre": "Science Fiction / Time Travel",
+      "description": "A profound novel spanning centuries and connecting distant lives.",
+      "cover_image_url": "data/covers/cover_108.jpg",
+      "average_rating": 1.2407287399252975,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/11465138-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:55.925Z"
+      }
+    },
+    {
+      "id": 53,
+      "title": "Fugitive Telemetry",
+      "author": "Martha Wells",
+      "genre": "Science Fiction / Mystery",
+      "description": "A Murderbot Diaries novella featuring a murder mystery.",
+      "cover_image_url": "data/covers/cover_109.jpg",
+      "average_rating": 1.3105250423388657,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/10104879-L.jpg",
+        "downloaded_at": "2025-11-13T18:51:58.623Z"
+      }
+    },
+    {
+      "id": 54,
+      "title": "Don't Let Him In",
+      "author": "Lisa Jewell",
+      "genre": "Mystery / Thriller",
+      "description": "A novel about secrets, family, and a dangerous arrival.",
+      "cover_image_url": "data/covers/cover_110.jpg",
+      "average_rating": 4.1,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15104493-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:00.393Z"
+      }
+    },
+    {
+      "id": 55,
+      "title": "None of This Is True",
+      "author": "Lisa Jewell",
+      "genre": "Psychological Thriller",
+      "description": "A dark, twisting novel about two women who meet by chance.",
+      "cover_image_url": "data/covers/cover_111.jpg",
+      "average_rating": 4.5,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/13300169-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:02.855Z"
+      }
+    },
+    {
+      "id": 56,
+      "title": "Nobody's Girl",
+      "author": "Virginia Roberts Giuffre",
+      "genre": "Memoir / True Crime",
+      "description": "A woman's search for justice and survival.",
+      "cover_image_url": "data/covers/cover_112.jpg",
+      "average_rating": 2.3538768479072765,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15134796-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:04.368Z"
+      }
+    },
+    {
+      "id": 57,
+      "title": "The Guest List (Lucy Foley)",
+      "author": "Lucy Foley",
+      "genre": "Mystery / Suspense",
+      "description": "A wedding on a remote island goes terribly wrong.",
+      "cover_image_url": "data/covers/cover_115.jpg",
+      "average_rating": 4.2,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/10096112-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:09.535Z"
+      }
+    },
+    {
+      "id": 58,
+      "title": "She Didn't See It Coming",
+      "author": "Shari Lapena",
+      "genre": "Psychological Thriller",
+      "description": "A fast-paced thriller about a dangerous obsession.",
+      "cover_image_url": "data/covers/cover_116.jpg",
+      "average_rating": 2.010697971716902,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15110806-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:11.082Z"
+      }
+    },
+    {
+      "id": 59,
+      "title": "Hidden Pictures",
+      "author": "Jason Rekulak",
+      "genre": "Horror / Mystery",
+      "description": "A chilling novel where a summer job turns into a nightmare.",
+      "cover_image_url": "data/covers/cover_117.jpg",
+      "average_rating": 4,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/12775985-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:13.404Z"
+      }
+    },
+    {
+      "id": 60,
+      "title": "Local Woman Missing",
+      "author": "Mary Kubica",
+      "genre": "Psychological Thriller",
+      "description": "A riveting story about a missing woman and a daughter's search for answers.",
+      "cover_image_url": "data/covers/cover_119.jpg",
+      "average_rating": 4.2,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/10677491-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:17.119Z"
+      }
+    },
+    {
+      "id": 61,
+      "title": "All the Colors of the Dark",
+      "author": "Chris Whitaker",
+      "genre": "Fiction / Mystery",
+      "description": "A poignant mystery about a boy's search for the truth.",
+      "cover_image_url": "data/covers/cover_120.jpg",
+      "average_rating": 4.4,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/14643105-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:19.926Z"
+      }
+    },
+    {
+      "id": 62,
+      "title": "Home Before Dark",
+      "author": "Riley Sager",
+      "genre": "Horror / Mystery",
+      "description": "A woman returns to the haunted house that inspired her father's true crime novel.",
+      "cover_image_url": "data/covers/cover_121.jpg",
+      "average_rating": 1.2928117665375245,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/10184769-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:22.686Z"
+      }
+    },
+    {
+      "id": 63,
+      "title": "Love, Mom",
+      "author": "Iliana Xander",
+      "genre": "Thriller / Suspense",
+      "description": "A suspenseful read about a mother's dark past.",
+      "cover_image_url": "data/covers/cover_124.jpg",
+      "average_rating": 3.7,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15133372-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:25.936Z"
+      }
+    },
+    {
+      "id": 64,
+      "title": "Do You Remember?",
+      "author": "Freida McFadden",
+      "genre": "Psychological Thriller",
+      "description": "A gripping tale of amnesia and hidden truth.",
+      "cover_image_url": "data/covers/cover_125.jpg",
+      "average_rating": 4.5,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15125075-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:27.612Z"
+      }
+    },
+    {
+      "id": 65,
+      "title": "The Woman in Cabin 10 (R.W.)",
+      "author": "Ruth Ware",
+      "genre": "Mystery / Suspense",
+      "description": "A journalist witnesses a body thrown overboard from a cruise ship.",
+      "cover_image_url": "data/covers/cover_128.jpg",
+      "average_rating": 3.9,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/8289386-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:33.505Z"
+      }
+    },
+    {
+      "id": 66,
+      "title": "Nightshade",
+      "author": "Michael Connelly",
+      "genre": "Crime / Mystery",
+      "description": "A new cold case challenges Detective Harry Bosch.",
+      "cover_image_url": "data/covers/cover_129.jpg",
+      "average_rating": 1.393330363840207,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15091608-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:35.356Z"
+      }
+    },
+    {
+      "id": 67,
+      "title": "Too Old for This",
+      "author": "Samantha Downing",
+      "genre": "Thriller / Dark Comedy",
+      "description": "A dark and humorous thriller about retirement gone wrong.",
+      "cover_image_url": "data/covers/cover_130.jpg",
+      "average_rating": 2.0321944869092516,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15113559-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:36.540Z"
+      }
+    },
+    {
+      "id": 68,
+      "title": "Tell Me What You Did",
+      "author": "Carter Wilson",
+      "genre": "Thriller / Suspense",
+      "description": "A novel of guilt, memory, and suspense.",
+      "cover_image_url": "data/covers/cover_131.jpg",
+      "average_rating": 3.8,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15095729-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:37.543Z"
+      }
+    },
+    {
+      "id": 69,
+      "title": "She's Not Sorry",
+      "author": "Mary Kubica",
+      "genre": "Psychological Thriller",
+      "description": "A gripping novel about a nurse who suspects one of her patients is a killer.",
+      "cover_image_url": "data/covers/cover_132.jpg",
+      "average_rating": 1.1260155200981392,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/14602762-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:40.197Z"
+      }
+    },
+    {
+      "id": 70,
+      "title": "Night She Disappeared",
+      "author": "Lisa Jewell",
+      "genre": "Mystery / Suspense",
+      "description": "A gripping novel about a young couple who vanish.",
+      "cover_image_url": "data/covers/cover_135.jpg",
+      "average_rating": 2.07034064003326,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/11326455-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:44.385Z"
+      }
+    },
+    {
+      "id": 71,
+      "title": "Hidden Nature",
+      "author": "Nora Roberts",
+      "genre": "Romantic Suspense",
+      "description": "A suspenseful romance set in the wilderness.",
+      "cover_image_url": "data/covers/cover_136.jpg",
+      "average_rating": 4.1,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15090693-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:45.917Z"
+      }
+    },
+    {
+      "id": 72,
+      "title": "King of Ashes",
+      "author": "S.A. Cosby",
+      "genre": "Crime / Thriller",
+      "description": "A gritty and powerful crime novel.",
+      "cover_image_url": "data/covers/cover_137.jpg",
+      "average_rating": 2.0165302723548484,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15101761-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:54.638Z"
+      }
+    },
+    {
+      "id": 73,
+      "title": "Parents Weekend",
+      "author": "Alex Finlay",
+      "genre": "Mystery / Thriller",
+      "description": "A deadly weekend at a prestigious university.",
+      "cover_image_url": "data/covers/cover_139.jpg",
+      "average_rating": 2.456249467631153,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/14974531-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:57.075Z"
+      }
+    },
+    {
+      "id": 74,
+      "title": "The Many Lives of Mama Love",
+      "author": "Lara Love Hardin",
+      "genre": "Memoir / True Crime",
+      "description": "A woman's journey through addiction and the justice system.",
+      "cover_image_url": "data/covers/cover_141.jpg",
+      "average_rating": 1.4088193947173728,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15093141-L.jpg",
+        "downloaded_at": "2025-11-13T18:52:59.390Z"
+      }
+    },
+    {
+      "id": 75,
+      "title": "Finlay Donovan Is Killing It",
+      "author": "Elle Cosimano",
+      "genre": "Mystery / Comedy",
+      "description": "A mystery writer is mistaken for a contract killer.",
+      "cover_image_url": "data/covers/cover_142.jpg",
+      "average_rating": 4.4,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/10596487-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:01.500Z"
+      }
+    },
+    {
+      "id": 76,
+      "title": "The Family Remains",
+      "author": "Lisa Jewell",
+      "genre": "Mystery / Thriller",
+      "description": "The continuation of the gripping 'The Family Upstairs' series.",
+      "cover_image_url": "data/covers/cover_144.jpg",
+      "average_rating": 4.2,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/13224921-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:05.042Z"
+      }
+    },
+    {
+      "id": 77,
+      "title": "The Idaho Four",
+      "author": "James Patterson & Vicky Ward",
+      "genre": "True Crime",
+      "description": "An investigation into a high-profile, tragic crime.",
+      "cover_image_url": "data/covers/cover_145.jpg",
+      "average_rating": 2.4562456443454703,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15104457-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:06.748Z"
+      }
+    },
+    {
+      "id": 78,
+      "title": "Framed in Death",
+      "author": "J.D. Robb",
+      "genre": "Mystery / Police Procedural",
+      "description": "The latest in the futuristic Eve Dallas series.",
+      "cover_image_url": "data/covers/cover_146.jpg",
+      "average_rating": 2.316204490367251,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15119665-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:07.753Z"
+      }
+    },
+    {
+      "id": 79,
+      "title": "The Killing Stones",
+      "author": "Ann Cleeves",
+      "genre": "Mystery / Crime",
+      "description": "A new case for the beloved Vera Stanhope.",
+      "cover_image_url": "data/covers/cover_147.jpg",
+      "average_rating": 1.016681447849656,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15140579-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:09.057Z"
+      }
+    },
+    {
+      "id": 80,
+      "title": "Last One Out",
+      "author": "Jane Harper",
+      "genre": "Mystery / Suspense",
+      "description": "A gripping novel set in the Australian wilderness.",
+      "cover_image_url": "data/covers/cover_148.jpg",
+      "average_rating": 4,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/9321665-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:11.672Z"
+      }
+    },
+    {
+      "id": 81,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classics / Fiction",
+      "description": "A novel illustrating the Roaring Twenties in America.",
+      "cover_image_url": "data/covers/cover_151.jpg",
+      "average_rating": 4.3,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/10590366-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:16.242Z"
+      }
+    },
+    {
+      "id": 82,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Classics / Southern Gothic",
+      "description": "A classic story of justice and prejudice in the Deep South.",
+      "cover_image_url": "data/covers/cover_152.jpg",
+      "average_rating": 4.5,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/12606502-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:18.974Z"
+      }
+    },
+    {
+      "id": 83,
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "genre": "Classics / Gothic",
+      "description": "The autobiography of the passionate and principled Jane Eyre.",
+      "cover_image_url": "data/covers/cover_153.jpg",
+      "average_rating": 4.2,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/10770819-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:21.424Z"
+      }
+    },
+    {
+      "id": 84,
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "genre": "Classics / Gothic",
+      "description": "A dark, passionate love story set on the windy Yorkshire moors.",
+      "cover_image_url": "data/covers/cover_155.jpg",
+      "average_rating": 4.1,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/381410-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:25.130Z"
+      }
+    },
+    {
+      "id": 85,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "genre": "Classics / Gothic",
+      "description": "A man trades his soul for eternal youth and beauty.",
+      "cover_image_url": "data/covers/cover_156.jpg",
+      "average_rating": 2.06503930386698,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/14314858-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:27.980Z"
+      }
+    },
+    {
+      "id": 86,
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "genre": "Classics / Allegory",
+      "description": "A satirical fable about the corruption of socialist ideals.",
+      "cover_image_url": "data/covers/cover_157.jpg",
+      "average_rating": 1.0125653555163208,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/11261770-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:30.623Z"
+      }
+    },
+    {
+      "id": 87,
+      "title": "The Catcher in the Rye",
+      "author": "J. D. Salinger",
+      "genre": "Classics / Coming-of-Age",
+      "description": "The story of teenage angst and alienation.",
+      "cover_image_url": "data/covers/cover_158.jpg",
+      "average_rating": 4,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/9273490-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:33.823Z"
+      }
+    },
+    {
+      "id": 88,
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "genre": "Classics / Domestic Fiction",
+      "description": "A charming tale about the lives of the four March sisters.",
+      "cover_image_url": "data/covers/cover_159.jpg",
+      "average_rating": 1.0320824619736393,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/8775559-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:36.934Z"
+      }
+    },
+    {
+      "id": 89,
+      "title": "Frankenstein; or, The Modern Prometheus",
+      "author": "Mary Shelley",
+      "genre": "Classics / Gothic / Horror",
+      "description": "Victor Frankenstein's scientific creation goes terribly wrong.",
+      "cover_image_url": "data/covers/cover_160.jpg",
+      "average_rating": 1.3,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/7267770-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:38.562Z"
+      }
+    },
+    {
+      "id": 90,
+      "title": "Lord of the Flies",
+      "author": "William Golding",
+      "genre": "Classics / Allegory",
+      "description": "Schoolboys stranded on an island descend into savagery.",
+      "cover_image_url": "data/covers/cover_161.jpg",
+      "average_rating": 4.1,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/8684447-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:42.202Z"
+      }
+    },
+    {
+      "id": 91,
+      "title": "Of Mice and Men",
+      "author": "John Steinbeck",
+      "genre": "Classics / Social Realism",
+      "description": "A tragic story of two migrant workers during the Great Depression.",
+      "cover_image_url": "data/covers/cover_162.jpg",
+      "average_rating": 4.4,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/14319003-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:45.424Z"
+      }
+    },
+    {
+      "id": 92,
+      "title": "Sense and Sensibility",
+      "author": "Jane Austen",
+      "genre": "Classics / Romance",
+      "description": "The story of the Dashwood sisters and their pursuit of love.",
+      "cover_image_url": "data/covers/cover_163.jpg",
+      "average_rating": 2.5,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/9278292-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:48.311Z"
+      }
+    },
+    {
+      "id": 93,
+      "title": "WARD D",
+      "author": "Freida McFadden",
+      "genre": "Horror / Thriller",
+      "description": "A terrifying thriller set in a hospital ward.",
+      "cover_image_url": "data/covers/cover_164.jpg",
+      "average_rating": 4.3,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/15125127-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:49.917Z"
+      }
+    },
+    {
+      "id": 94,
+      "title": "The Locked Door",
+      "author": "Freida McFadden",
+      "genre": "Thriller / Mystery",
+      "description": "A twisty thriller about a daughter discovering her father's past.",
+      "cover_image_url": "data/covers/cover_166.jpg",
+      "average_rating": 4.4,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/13156268-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:53.231Z"
+      }
+    },
+    {
+      "id": 95,
+      "title": "One by One",
+      "author": "Freida McFadden",
+      "genre": "Mystery / Suspense",
+      "description": "A chilling survival thriller where guests disappear one by one.",
+      "cover_image_url": "data/covers/cover_167.jpg",
+      "average_rating": 3.2,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/14603852-L.jpg",
+        "downloaded_at": "2025-11-13T18:53:58.268Z"
+      }
+    },
+    {
+      "id": 96,
+      "title": "One Dark Window",
+      "author": "Rachel Gillig",
+      "genre": "Fantasy / Gothic",
+      "description": "A dark fantasy romance with a mysterious curse.",
+      "cover_image_url": "data/covers/cover_168.jpg",
+      "average_rating": 2.4619845679096293,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/12431959-L.jpg",
+        "downloaded_at": "2025-11-13T18:54:01.424Z"
+      }
+    },
+    {
+      "id": 97,
+      "title": "You Shouldn't Have Come Here",
+      "author": "Jeneva Rose",
+      "genre": "Psychological Thriller",
+      "description": "A woman's romantic getaway turns into a fight for survival.",
+      "cover_image_url": "data/covers/cover_170.jpg",
+      "average_rating": 2.033871178230732,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/14315213-L.jpg",
+        "downloaded_at": "2025-11-13T18:54:06.075Z"
+      }
+    },
+    {
+      "id": 98,
+      "title": "The Last One at the Wedding",
+      "author": "Jason Rekulak",
+      "genre": "Mystery / Suspense",
+      "description": "A suspenseful story set around a fateful wedding day.",
+      "cover_image_url": "data/covers/cover_172.jpg",
+      "average_rating": 2.8,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/14833150-L.jpg",
+        "downloaded_at": "2025-11-13T18:54:08.142Z"
+      }
+    },
+    {
+      "id": 99,
+      "title": "Home Before Dark (Riley Sager)",
+      "author": "Riley Sager",
+      "genre": "Horror / Mystery",
+      "description": "A woman returns to the house her father made famous in a true crime book.",
+      "cover_image_url": "data/covers/cover_173.jpg",
+      "average_rating": 4.2,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/10184769-L.jpg",
+        "downloaded_at": "2025-11-13T18:54:10.502Z"
+      }
+    },
+    {
+      "id": 100,
+      "title": "Five Survive",
+      "author": "Holly Jackson",
+      "genre": "Young Adult Thriller",
+      "description": "Five friends trapped in an RV during a spring break trip.",
+      "cover_image_url": "data/covers/cover_174.jpg",
+      "average_rating": 2.2865490001433497,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/13187233-L.jpg",
+        "downloaded_at": "2025-11-13T18:54:13.205Z"
+      }
+    },
+    {
+      "id": 101,
+      "title": "The Art Thief",
+      "author": "Michael Finkel",
+      "genre": "True Crime",
+      "description": "The true story of the world's most daring art thief.",
+      "cover_image_url": "data/covers/cover_179.jpg",
+      "average_rating": 4.3,
+      "cover_metadata": {
+        "openlibrary_url": "https://covers.openlibrary.org/b/id/13460657-L.jpg",
+        "downloaded_at": "2025-11-13T18:54:19.456Z"
+      }
+    },
+    {
+      "id": 102,
+      "title": "Words of Radiance",
+      "author": "Brandon Sanderson",
+      "genre": "Fantasy",
+      "description": "The eagerly awaited sequel to the New York Times bestselling The Way of Kings.\r\n\r\nSix years ago, the Assassin in White, a hireling of the inscrutable Parshendi, assassinated the Alethi king on the ver",
+      "cover_image_url": "data/covers/cover_102.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL16813053W",
+      "isbn": null,
+      "first_publish_year": 2012,
+      "language": "spa",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_102.jpg",
+        "downloaded_at": "2025-11-13T19:16:09.991Z"
+      }
+    },
+    {
+      "id": 103,
+      "title": "Percy Jackson's Greek Gods",
+      "author": "Rick Riordan",
+      "genre": "Fantasy",
+      "description": "\"A publisher in New York asked me to write down what I know about the Greek gods, and I was like, 'Can we do this anonymously?' Because I don't need the Olympians mad at me again. But if it helps you",
+      "cover_image_url": "data/covers/cover_103.jpg",
+      "average_rating": 1.2226532138302704,
+      "openlibrary_key": "/works/OL17054790W",
+      "isbn": null,
+      "first_publish_year": 2006,
+      "language": "pol",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_103.jpg",
+        "downloaded_at": "2025-11-13T19:16:11.541Z"
+      }
+    },
+    {
+      "id": 104,
+      "title": "The Hero of Ages",
+      "author": "Brandon Sanderson",
+      "genre": "Fantasy",
+      "description": "This book is not only the third book in a trilogy, but it’s Act Three of the the three-act structure for the Mistborn Trilogy—it’s the part of the story where the heroes have discovered that what they",
+      "cover_image_url": "data/covers/cover_104.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL5738154W",
+      "isbn": null,
+      "first_publish_year": 2008,
+      "language": "eng",
+      "ratings_count": 0
+    },
+    {
+      "id": 105,
+      "title": "The Way of Kings",
+      "author": "Brandon Sanderson",
+      "genre": "Fantasy",
+      "description": "Widely acclaimed for his work completing Robert Jordan’s Wheel of Time saga, Brandon Sanderson now begins a grand cycle of his own, one every bit as ambitious and immersive.\r\n\r\nRoshar is a world of st",
+      "cover_image_url": "data/covers/cover_105.jpg",
+      "average_rating": 1.2764656205595255,
+      "openlibrary_key": "/works/OL15358691W",
+      "isbn": null,
+      "first_publish_year": 2010,
+      "language": "pol",
+      "ratings_count": 0
+    },
+    {
+      "id": 106,
+      "title": "Empire of Storms",
+      "author": "Sarah J. Maas",
+      "genre": "Fantasy",
+      "description": "The long path to the throne has only just begun for Aelin Galathynius. Loyalties have been broken and bought, friends have been lost and gained, and those who possess magic find themselves at odds wit",
+      "cover_image_url": "data/covers/cover_106.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL17625829W",
+      "isbn": null,
+      "first_publish_year": 2016,
+      "language": "tur",
+      "ratings_count": 0
+    },
+    {
+      "id": 107,
+      "title": "The School for Good and Evil",
+      "author": "Soman Chainani",
+      "genre": "Fantasy",
+      "description": "**A dark and enchanting fantasy adventure perfect for those who prefer their fairytales with a twist. The first in the bestselling School for Good and Evil series.**\r\n\r\nEvery four years, two girls are",
+      "cover_image_url": "data/covers/cover_107.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL16810944W",
+      "isbn": null,
+      "first_publish_year": 2007,
+      "language": "pol",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_107.jpg",
+        "downloaded_at": "2025-11-13T19:16:12.855Z"
+      }
+    },
+    {
+      "id": 108,
+      "title": "Oathbringer",
+      "author": "Brandon Sanderson",
+      "genre": "Fantasy",
+      "description": "**The eagerly awaited sequel to the #1 *New York Times* bestselling *Words of Radiance*, from epic fantasy author Brandon Sanderson, at the top of his game**\r\n\r\nIn *Oathbringer*, the third volume of t",
+      "cover_image_url": "data/covers/cover_108.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL17834026W",
+      "isbn": null,
+      "first_publish_year": 2017,
+      "language": "spa",
+      "ratings_count": 0
+    },
+    {
+      "id": 109,
+      "title": "Keeper of the Lost Cities",
+      "author": "Shannon Messenger",
+      "genre": "Fantasy",
+      "description": "Twelve-year-old Sophie has never quite fit into her life. She’s skipped multiple grades and doesn’t really connect with the older kids at school, but she’s not comfortable with her family, either. The",
+      "cover_image_url": "data/covers/cover_109.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL16361049W",
+      "isbn": null,
+      "first_publish_year": 2012,
+      "language": "pol",
+      "ratings_count": 0
+    },
+    {
+      "id": 110,
+      "title": "Going Postal",
+      "author": "Terry Pratchett",
+      "genre": "Fantasy",
+      "description": "Suddenly, condemned arch-swindler Moist von Lipwig found himself with a noose around his neck and dropping through a trapdoor into ... a government job? By all rights, Moist should be meeting his make",
+      "cover_image_url": "data/covers/cover_110.jpg",
+      "average_rating": 2.4933660784539953,
+      "openlibrary_key": "/works/OL453733W",
+      "isbn": null,
+      "first_publish_year": 2004,
+      "language": "cze",
+      "ratings_count": 0
+    },
+    {
+      "id": 111,
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "genre": "Fantasy",
+      "description": "The Martian is a 2011 science fiction novel written by Andy Weir. It was his debut novel under his own name. It was originally self-published in 2011; Crown Publishing purchased the rights and re-rele",
+      "cover_image_url": "data/covers/cover_111.jpg",
+      "average_rating": 2.088956762564292,
+      "openlibrary_key": "/works/OL17091839W",
+      "isbn": null,
+      "first_publish_year": 2011,
+      "language": "kor",
+      "ratings_count": 0
+    },
+    {
+      "id": 112,
+      "title": "Watchmen",
+      "author": "Alan Moore",
+      "genre": "Fantasy",
+      "description": "\"This book examines each of the series' twelve issues in unprecedented detail, moving page by page and panel by panel to reveal the hidden foundations of this milestone in modern storytelling. Edited",
+      "cover_image_url": "data/covers/cover_112.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL2897798W",
+      "isbn": null,
+      "first_publish_year": 1987,
+      "language": "spa",
+      "ratings_count": 0
+    },
+    {
+      "id": 113,
+      "title": "The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "description": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.\r\n\r\n“A unique, wholly realized other world, evoked from deep in the well of Time, massively d",
+      "cover_image_url": "data/covers/cover_113.jpg",
+      "average_rating": 1.198722999940564,
+      "openlibrary_key": "/works/OL27513W",
+      "isbn": null,
+      "first_publish_year": 1954,
+      "language": "pol",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_113.jpg",
+        "downloaded_at": "2025-11-13T19:16:14.219Z"
+      }
+    },
+    {
+      "id": 114,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "description": "Originally published from 1954 through 1956, J.R.R. Tolkien's richly complex series ushered in a new age of epic adventure storytelling. A philologist and illustrator who took inspiration from his wor",
+      "cover_image_url": "data/covers/cover_114.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL27448W",
+      "isbn": null,
+      "first_publish_year": 1954,
+      "language": "kor",
+      "ratings_count": 0
+    },
+    {
+      "id": 115,
+      "title": "The Sea of Monsters",
+      "author": "Rick Riordan",
+      "genre": "Fantasy",
+      "description": "After a year spent trying to prevent a catastropic war among the Greek gods, Percy Jackson finds his seventh-grade school year unnervingly quiet. His biggest problem is dealing with his new friend, Ty",
+      "cover_image_url": "data/covers/cover_115.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL492646W",
+      "isbn": null,
+      "first_publish_year": 2006,
+      "language": "fre",
+      "ratings_count": 0
+    },
+    {
+      "id": 116,
+      "title": "The Mark of Athena",
+      "author": "Rick Riordan",
+      "genre": "Fantasy",
+      "description": "Annabeth is terrified. Just when she's about to be reunited with Percy—after six months of being apart, thanks to Hera—it looks like Camp Jupiter is preparing for war. As Annabeth and her friends Jaso",
+      "cover_image_url": "data/covers/cover_116.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL16664287W",
+      "isbn": null,
+      "first_publish_year": 2011,
+      "language": "heb",
+      "ratings_count": 0
+    },
+    {
+      "id": 117,
+      "title": "The Throne of Fire",
+      "author": "Rick Riordan",
+      "genre": "Fantasy",
+      "description": "Ever since the gods of Ancient Egypt were unleashed in the modern world, Carter Kane and his sister Sadie have been in trouble. As descendants of the House of Life, the Kanes have some powers at their",
+      "cover_image_url": "data/covers/cover_117.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL15946464W",
+      "isbn": null,
+      "first_publish_year": 2011,
+      "language": "heb",
+      "ratings_count": 0
+    },
+    {
+      "id": 118,
+      "title": "Howl's Moving Castle",
+      "author": "Diana Wynne Jones",
+      "genre": "Fantasy",
+      "description": "As the oldest daughter, willful, outspoken Sophie knew that her life could lead to nothing but mistakes. When her father dies, her stepmother sends her two sisters out to make their fortunes while Sop",
+      "cover_image_url": "data/covers/cover_118.jpg",
+      "average_rating": 1.2078637952018485,
+      "openlibrary_key": "/works/OL60149W",
+      "isbn": null,
+      "first_publish_year": 1986,
+      "language": "heb",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_118.jpg",
+        "downloaded_at": "2025-11-13T19:16:17.135Z"
+      }
+    },
+    {
+      "id": 119,
+      "title": "The Titan's Curse",
+      "author": "Rick Riordan",
+      "genre": "Fantasy",
+      "description": "When Percy Jackson gets an urgent distress call from his friend Grover, he immediately prepares for battle.  He knows he will need his powerful demigod allies at his side, his trusty bronze sword Ript",
+      "cover_image_url": "data/covers/cover_119.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL492647W",
+      "isbn": null,
+      "first_publish_year": 2007,
+      "language": "heb",
+      "ratings_count": 0
+    },
+    {
+      "id": 120,
+      "title": "The Lost Hero",
+      "author": "Rick Riordan",
+      "genre": "Fantasy",
+      "description": "Jason has a problem. He doesn’t remember anything before waking up on a school bus holding hands with a girl. Apparently she’s his girlfriend Piper, his best friend is a kid named Leo, and they’re all",
+      "cover_image_url": "data/covers/cover_120.jpg",
+      "average_rating": 1.1155619338169895,
+      "openlibrary_key": "/works/OL15401200W",
+      "isbn": null,
+      "first_publish_year": 2010,
+      "language": "tur",
+      "ratings_count": 0
+    },
+    {
+      "id": 121,
+      "title": "The Final Empire",
+      "author": "Brandon Sanderson",
+      "genre": "Fantasy",
+      "description": "For a thousand years ashes have fallen from the sky.  For a thousand years nothing has flourished.  For a thousand years the skaa have been enslaved and live in misery, mired in inevitable fear.  For",
+      "cover_image_url": "data/covers/cover_121.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL5738148W",
+      "isbn": null,
+      "first_publish_year": 2001,
+      "language": "pol",
+      "ratings_count": 0
+    },
+    {
+      "id": 122,
+      "title": "Six of Crows",
+      "author": "Leigh Bardugo",
+      "genre": "Fantasy",
+      "description": "BOOK ONE of the [Six of Crows Duology](https://openlibrary.org/works/OL19758128W/Six_of_Crows_Crooked_Kingdom)\r\n\r\nSix of Crows is a fantasy novel written by the Israeli-American author Leigh Bardugo p",
+      "cover_image_url": "data/covers/cover_122.jpg",
+      "average_rating": 1.4998405847272593,
+      "openlibrary_key": "/works/OL17332479W",
+      "isbn": null,
+      "first_publish_year": 2015,
+      "language": "ger",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_122.jpg",
+        "downloaded_at": "2025-11-13T19:16:19.775Z"
+      }
+    },
+    {
+      "id": 123,
+      "title": "The Two Towers",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "description": "The Lord of the Rings, J.R.R. Tolkien's three-volume epic, is set in the imaginary world of Middle-earth -- home to many strange beings, and most notably hobbits, a peace-loving \"little people,\" cheer",
+      "cover_image_url": "data/covers/cover_123.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL27479W",
+      "isbn": null,
+      "first_publish_year": 1954,
+      "language": "pol",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_123.jpg",
+        "downloaded_at": "2025-11-13T19:16:21.192Z"
+      }
+    },
+    {
+      "id": 124,
+      "title": "Harry Potter (series) 1-7",
+      "author": "J. K. Rowling",
+      "genre": "Fantasy",
+      "description": "The Harry Potter books throw you into an amazing fantasy world of witches and wizards, spells, magical creatures, He-Who-Must-Not-Be-Named, and a school of witchcraft and wizardry called Hogwarts. In",
+      "cover_image_url": "data/covers/cover_124.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL14981609W",
+      "isbn": null,
+      "first_publish_year": 1999,
+      "language": "eng",
+      "ratings_count": 0
+    },
+    {
+      "id": 125,
+      "title": "Matilda",
+      "author": "Roald Dahl",
+      "genre": "Fantasy",
+      "description": "No podemos resistirnos a Matilda y recomendar a su autor a los niños que no lo conozcan. Matilda debe poner orden en una escuela poco acogedora porque sus profesores no están a la altura de su profesi",
+      "cover_image_url": "data/covers/cover_125.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL45846W",
+      "isbn": null,
+      "first_publish_year": 1988,
+      "language": "ger",
+      "ratings_count": 0
+    },
+    {
+      "id": 126,
+      "title": "The Well of Ascension",
+      "author": "Brandon Sanderson",
+      "genre": "Fantasy",
+      "description": "The impossible has been accomplished. The Lord Ruler -- the man who claimed to be god incarnate and brutally ruled the world for a thousand years -- has been vanquished. But Kelsier, the hero who mast",
+      "cover_image_url": "data/covers/cover_126.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL5738150W",
+      "isbn": null,
+      "first_publish_year": 2007,
+      "language": "eng",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_126.jpg",
+        "downloaded_at": "2025-11-13T19:16:23.400Z"
+      }
+    },
+    {
+      "id": 127,
+      "title": "Guards! Guards!",
+      "author": "Terry Pratchett",
+      "genre": "Fantasy",
+      "description": "Here there be dragons ... and the denizens of Ankh-Morpork wish one huge firebreather would return from whence it came. Long believed extinct, a superb specimen of draco nobilis (\"noble dragon\" for th",
+      "cover_image_url": "data/covers/cover_127.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL453735W",
+      "isbn": null,
+      "first_publish_year": 1989,
+      "language": "cze",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_127.jpg",
+        "downloaded_at": "2025-11-13T19:16:25.762Z"
+      }
+    },
+    {
+      "id": 128,
+      "title": "A Storm of Swords",
+      "author": "George R. R. Martin",
+      "genre": "Fantasy",
+      "description": "Here is the third volume in George R. R. Martin’s magnificent cycle of novels that includes *A Game of Thrones* and *A Clash of Kings*. As a whole, this series comprises a genuine masterpiece of moder",
+      "cover_image_url": "data/covers/cover_128.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL257914W",
+      "isbn": null,
+      "first_publish_year": 2000,
+      "language": "spa",
+      "ratings_count": 0
+    },
+    {
+      "id": 129,
+      "title": "The Last Olympian",
+      "author": "Rick Riordan",
+      "genre": "Fantasy",
+      "description": "All year the half-bloods have been preparing for battle against the Titans, knowing the odds of victory are grim. Kronos's army is stronger than ever, and with every god and half-blood he recruits, th",
+      "cover_image_url": "data/covers/cover_129.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL492642W",
+      "isbn": null,
+      "first_publish_year": 2009,
+      "language": "heb",
+      "ratings_count": 0
+    },
+    {
+      "id": 130,
+      "title": "Into the Wild",
+      "author": "Erin Hunter",
+      "genre": "Fantasy",
+      "description": "A fantastic book about a house cat named Rusty who joins a Clan of wild cat's and fights through taunting, terrible events, and a suspicious warrior named Tigerclaw. But a prophecy given to the leader",
+      "cover_image_url": "data/covers/cover_130.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL265501W",
+      "isbn": null,
+      "first_publish_year": 2003,
+      "language": "heb",
+      "ratings_count": 0
+    },
+    {
+      "id": 131,
+      "title": "Night Watch",
+      "author": "Terry Pratchett",
+      "genre": "Fantasy",
+      "description": "One moment, Sir Sam Vimes is in his old patrolman form, chasing a sweet-talking psychopath across the rooftops of Ankh-Morpork. The next, he's lying naked in the street, having been sent back thirty y",
+      "cover_image_url": "data/covers/cover_131.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL453809W",
+      "isbn": null,
+      "first_publish_year": 2002,
+      "language": "pol",
+      "ratings_count": 0
+    },
+    {
+      "id": 132,
+      "title": "Harry Potter and the Half-Blood Prince",
+      "author": "J. K. Rowling",
+      "genre": "Mystery",
+      "description": "One summer night, when Dumbledore arrives at Privet Drive to collect Harry Potter, his wand hand is blackened and shriveled, but he will not reveal why.\r\n\r\nRumours and suspicion spread through the wiz",
+      "cover_image_url": "data/covers/cover_132.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL82565W",
+      "isbn": null,
+      "first_publish_year": 2005,
+      "language": "ben",
+      "ratings_count": 0
+    },
+    {
+      "id": 133,
+      "title": "Works (Carrie / Night Shift / 'Salem's Lot / Shining)",
+      "author": "Stephen King",
+      "genre": "Mystery",
+      "description": "Contains:\r\n\r\n - [Carrie][4]\r\n - [Night Shift][3]\r\n - ['Salem's Lot][2]\r\n - [Shining][1]\r\n\r\n  [1]: https://openlibrary.org/works/OL81633W\r\n  [2]: https://openlibrary.org/works/OL81632W\r\n  [3]: https://",
+      "cover_image_url": "data/covers/cover_133.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL14917547W",
+      "isbn": null,
+      "first_publish_year": 1981,
+      "language": "eng",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_133.jpg",
+        "downloaded_at": "2025-11-13T19:16:28.568Z"
+      }
+    },
+    {
+      "id": 134,
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "genre": "Mystery",
+      "description": "***The Name of the Wind***, also called ***The Kingkiller Chronicle: Day One***, is a heroic fantasy novel written by American author Patrick Rothfuss. It is the first book in the ongoing fantasy tril",
+      "cover_image_url": "data/covers/cover_134.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL8479867W",
+      "isbn": null,
+      "first_publish_year": 2007,
+      "language": "heb",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_134.jpg",
+        "downloaded_at": "2025-11-13T19:16:30.979Z"
+      }
+    },
+    {
+      "id": 135,
+      "title": "Harry Potter and the Deathly Hallows",
+      "author": "J. K. Rowling",
+      "genre": "Mystery",
+      "description": "Harry Potter is leaving Privet Drive for the last time. But as he climbs into the sidecar of Hagrid’s motorbike and they take to the skies, he knows Lord Voldemort and the Death Eaters will not be far",
+      "cover_image_url": "data/covers/cover_135.jpg",
+      "average_rating": 1.346661578694238,
+      "openlibrary_key": "/works/OL82586W",
+      "isbn": null,
+      "first_publish_year": 2007,
+      "language": "pol",
+      "ratings_count": 0
+    },
+    {
+      "id": 136,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J. K. Rowling",
+      "genre": "Mystery",
+      "description": "Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger and a snake surrounding a large letter 'H'.\r\n\r\nHARRY POTTER has never even",
+      "cover_image_url": "data/covers/cover_136.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL82563W",
+      "isbn": null,
+      "first_publish_year": 1997,
+      "language": "per",
+      "ratings_count": 0
+    },
+    {
+      "id": 137,
+      "title": "Harry Potter and the Goblet of Fire",
+      "author": "J. K. Rowling",
+      "genre": "Mystery",
+      "description": "The fourth book in the Harry Potter franchise sees Harry returning for his fourth year at Hogwarts School of Witchcraft and Wizardry, along with his friends, Ron and Hermione . There is an upcoming to",
+      "cover_image_url": "data/covers/cover_137.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL82560W",
+      "isbn": null,
+      "first_publish_year": 2000,
+      "language": "per",
+      "ratings_count": 0
+    },
+    {
+      "id": 138,
+      "title": "Amulet",
+      "author": "Kazu Kibuishi",
+      "genre": "Mystery",
+      "description": "The first book in Kazu Kibuishi's #1 New York Times bestselling series that features a beautiful but dangerous world of new friends, giant robots, and shadowy enemies!\r\n\r\nAfter the tragic death of the",
+      "cover_image_url": "data/covers/cover_138.jpg",
+      "average_rating": 2.41435433996907,
+      "openlibrary_key": "/works/OL8842598W",
+      "isbn": null,
+      "first_publish_year": 2008,
+      "language": "spa",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_138.jpg",
+        "downloaded_at": "2025-11-13T19:16:33.983Z"
+      }
+    },
+    {
+      "id": 139,
+      "title": "The Green Mile",
+      "author": "Stephen King",
+      "genre": "Mystery",
+      "description": "The Green Mile is a 1996 serial novel by American writer Stephen King. It tells the story of death row supervisor Paul Edgecombe's encounter with John Coffey, an unusual inmate who displays inexplicab",
+      "cover_image_url": "data/covers/cover_139.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL81629W",
+      "isbn": null,
+      "first_publish_year": 1996,
+      "language": "tur",
+      "ratings_count": 0
+    },
+    {
+      "id": 140,
+      "title": "And Then There Were None",
+      "author": "Agatha Christie",
+      "genre": "Mystery",
+      "description": "And Then There Were None is a mystery novel by the English writer Agatha Christie, described by her as the most difficult of her books to write. It was first published in the United Kingdom by the Col",
+      "cover_image_url": "data/covers/cover_140.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL471565W",
+      "isbn": null,
+      "first_publish_year": 1939,
+      "language": "eng",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_140.jpg",
+        "downloaded_at": "2025-11-13T19:16:35.995Z"
+      }
+    },
+    {
+      "id": 141,
+      "title": "Amore alla corte degli zar",
+      "author": "Elisabetta Dami",
+      "genre": "Mystery",
+      "description": "The Thea Sisters are in Russia and they find an unexpected mystery when a robbery happens. The Thea Sisters investigate until they almost give up hope when they find something that gives them a breakt",
+      "cover_image_url": "data/covers/cover_141.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL17209694W",
+      "isbn": null,
+      "first_publish_year": 1900,
+      "language": "spa",
+      "ratings_count": 0
+    },
+    {
+      "id": 142,
+      "title": "Il principe di Atlantide",
+      "author": "Elisabetta Dami",
+      "genre": "Mystery",
+      "description": "At the beach by Mouseford Academy, one of the Thea Sisters discovers a mysterious boy with blue skin washed up on the shore. He speaks an unfamiliar language, so the Thea Sisters call Thea Stilton to",
+      "cover_image_url": "data/covers/cover_142.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL16474682W",
+      "isbn": null,
+      "first_publish_year": 2010,
+      "language": "spa",
+      "ratings_count": 0
+    },
+    {
+      "id": 143,
+      "title": "The Complete Sherlock Holmes [4 novels, 56 stories]",
+      "author": "Arthur Conan Doyle",
+      "genre": "Mystery",
+      "description": "Contains:\r\n\r\n - [Adventures of Sherlock Holmes](https://openlibrary.org/works/OL262421W/The_Adventures_of_Sherlock_Holmes)\r\n\r\n[Scandal in Bohemia](https://openlibrary.org/works/OL14930611W/A_Scandal_i",
+      "cover_image_url": "data/covers/cover_143.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL262554W",
+      "isbn": null,
+      "first_publish_year": 1900,
+      "language": "chi",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_143.jpg",
+        "downloaded_at": "2025-11-13T19:16:38.535Z"
+      }
+    },
+    {
+      "id": 144,
+      "title": "The Case-Book of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "genre": "Mystery",
+      "description": "The Illustrious Client\r\nThe Blanched Soldier\r\nThe Adventure Of The Mazarin Stone\r\nThe Adventure of the Three Gables\r\nThe Adventure of the Sussex Vampire\r\nThe Adventure of the Three Garridebs\r\nThe Prob",
+      "cover_image_url": "data/covers/cover_144.jpg",
+      "average_rating": 1.445227054729473,
+      "openlibrary_key": "/works/OL262426W",
+      "isbn": null,
+      "first_publish_year": 1927,
+      "language": "jpn",
+      "ratings_count": 0
+    },
+    {
+      "id": 145,
+      "title": "Network Effect",
+      "author": "Martha Wells",
+      "genre": "Mystery",
+      "description": "**Murderbot returns in its highly-anticipated, first, full-length standalone novel.**\r\n\r\nYou know that feeling when you’re at work, and you’ve had enough of people, and then the boss walks in with yet",
+      "cover_image_url": "data/covers/cover_145.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL20735675W",
+      "isbn": null,
+      "first_publish_year": 2020,
+      "language": "eng",
+      "ratings_count": 0
+    },
+    {
+      "id": 146,
+      "title": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "genre": "Mystery",
+      "description": "For years, rumors of the “Marsh Girl” have haunted Barkley Cove, a quiet town on the North Carolina coast. So in late 1969, when handsome Chase Andrews is found dead, the locals immediately suspect Ky",
+      "cover_image_url": "data/covers/cover_146.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL18766691W",
+      "isbn": null,
+      "first_publish_year": 2018,
+      "language": "dut",
+      "ratings_count": 0
+    },
+    {
+      "id": 147,
+      "title": "Miss Peregrine's Home for Peculiar Children",
+      "author": "Ransom Riggs",
+      "genre": "Mystery",
+      "description": "A mysterious island. An abandoned orphanage. A strange collection of peculiar photographs. It all waits to be discovered in Miss Peregrine's Home for Peculiar Children, and unforgettable novel that mi",
+      "cover_image_url": "data/covers/cover_147.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL16151508W",
+      "isbn": null,
+      "first_publish_year": 2011,
+      "language": "dut",
+      "ratings_count": 0
+    },
+    {
+      "id": 148,
+      "title": "We Have Always Lived in the Castle",
+      "author": "Shirley Jackson",
+      "genre": "Mystery",
+      "description": "Shirley Jackson's beloved gothic tale of a peculiar girl named Merricat and her family's dark secret\r\n\r\nTaking readers deep into a labyrinth of dark neurosis, We Have Always Lived in the Castle is a d",
+      "cover_image_url": "data/covers/cover_148.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL3171087W",
+      "isbn": null,
+      "first_publish_year": 1962,
+      "language": "fre",
+      "ratings_count": 0
+    },
+    {
+      "id": 149,
+      "title": "V for Vendetta",
+      "author": "Alan Moore",
+      "genre": "Mystery",
+      "description": "A seminal graphic novel that defined sophisticated storytelling, Alan Moore's best-selling V For Vendetta is a terrifying portrait of totalitarianism and resistance, superbly illustrated by artist Dav",
+      "cover_image_url": "data/covers/cover_149.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL2897797W",
+      "isbn": null,
+      "first_publish_year": 1988,
+      "language": "fre",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_149.jpg",
+        "downloaded_at": "2025-11-13T19:16:41.175Z"
+      }
+    },
+    {
+      "id": 150,
+      "title": "Turn Coat",
+      "author": "Jim Butcher",
+      "genre": "Mystery",
+      "description": "The new novel in the hit New York Times bestselling Dresden Files series.The Warden Morgan has been accused of treason against the Wizards of the White Counciland theres only one, final punishment for",
+      "cover_image_url": "data/covers/cover_150.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL11967338W",
+      "isbn": null,
+      "first_publish_year": 2009,
+      "language": "eng",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_150.jpg",
+        "downloaded_at": "2025-11-13T19:16:43.320Z"
+      }
+    },
+    {
+      "id": 151,
+      "title": "Artificial condition",
+      "author": "Martha Wells",
+      "genre": "Mystery",
+      "description": "It has a dark past - one in which a number of humans were killed. A past that caused it to christen itself Murderbot. But it has only vague memories of the massacre that spawned that title, and it wan",
+      "cover_image_url": "data/covers/cover_151.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL19747311W",
+      "isbn": null,
+      "first_publish_year": 2018,
+      "language": "bul",
+      "ratings_count": 0
+    },
+    {
+      "id": 152,
+      "title": "Una cascata di cioccolato",
+      "author": "Elisabetta Dami",
+      "genre": "Mystery",
+      "description": "When the Thea Sisters are invited to a chocolate factory in Ecuador. Someone is trying to sabotage the chocolate factory while during a competition. This is an excellent book written by Elisabetta Dam",
+      "cover_image_url": "data/covers/cover_152.jpg",
+      "average_rating": 2.174031479271996,
+      "openlibrary_key": "/works/OL17082485W",
+      "isbn": null,
+      "first_publish_year": 2013,
+      "language": "ita",
+      "ratings_count": 0
+    },
+    {
+      "id": 153,
+      "title": "The Price of Salt",
+      "author": "Patricia Highsmith",
+      "genre": "Mystery",
+      "description": "THE PRICE OF SALT is the famous lesbian love story by Patricia Highsmith, written under the pseudonym Claire Morgan. The author became notorious due to the story's latent lesbian content and happy end",
+      "cover_image_url": "data/covers/cover_153.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL59448W",
+      "isbn": null,
+      "first_publish_year": 1952,
+      "language": "ita",
+      "ratings_count": 0
+    },
+    {
+      "id": 154,
+      "title": "The Tell-Tale Heart",
+      "author": "Edgar Allan Poe",
+      "genre": "Mystery",
+      "description": "\"The Tell-Tale Heart\" is a short story by American writer Edgar Allan Poe, first published in James Russell Lowell's The Pioneer in January 1843. \"The Tell-Tale Heart\" is often considered a classic of",
+      "cover_image_url": "data/covers/cover_154.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL41059W",
+      "isbn": null,
+      "first_publish_year": 1976,
+      "language": "spa",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_154.jpg",
+        "downloaded_at": "2025-11-13T19:16:45.968Z"
+      }
+    },
+    {
+      "id": 155,
+      "title": "Преступление и наказание",
+      "author": "Фёдор Михайлович Достоевский",
+      "genre": "Mystery",
+      "description": "From [wikipedia][1]:\r\n\r\nCrime and Punishment (Russian: Преступлéние и наказáние, tr. Prestupleniye i nakazaniye; IPA: [prʲɪstʊˈplʲenʲə ɪ nəkɐˈzanʲə]) is a novel by the Russian author Fyodor Dostoyevsk",
+      "cover_image_url": "data/covers/cover_155.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL166894W",
+      "isbn": null,
+      "first_publish_year": 1866,
+      "language": "pol",
+      "ratings_count": 0
+    },
+    {
+      "id": 156,
+      "title": "Complete Stories and Poems of Edgar Allan Poe",
+      "author": "Edgar Allan Poe",
+      "genre": "Mystery",
+      "description": "67 STORIES:\r\nAngel of the Odd\r\n[Assignation](https://openlibrary.org/works/OL15645797W)\r\nBalloon-Hoax\r\n[Berenice](https://openlibrary.org/works/OL15645808W)\r\n[Black Cat](https://openlibrary.org/works/",
+      "cover_image_url": "data/covers/cover_156.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL40967W",
+      "isbn": null,
+      "first_publish_year": 1966,
+      "language": "eng",
+      "ratings_count": 0
+    },
+    {
+      "id": 157,
+      "title": "Dog Man",
+      "author": "Dav Pilkey",
+      "genre": "Mystery",
+      "description": "The Supa Buddies have been working hard to help Dog Man overcome his bad habits. But when his obsessions turn to fears, Dog Man finds himself the target of an all-new supervillain! Meanwhile, Petey th",
+      "cover_image_url": "data/covers/cover_157.jpg",
+      "average_rating": 2.44859433094017,
+      "openlibrary_key": "/works/OL20085413W",
+      "isbn": null,
+      "first_publish_year": 2018,
+      "language": "eng",
+      "ratings_count": 0
+    },
+    {
+      "id": 158,
+      "title": "Gideon the Ninth",
+      "author": "Tamsyn Muir",
+      "genre": "Mystery",
+      "description": "\"The Emperor needs necromancers.\r\n\r\nThe Ninth Necromancer needs a swordswoman.\r\n\r\nGideon has a sword, some dirty magazines, and no more time for undead nonsense.\r\n\r\nTamsyn Muir’s Gideon the Ninth unve",
+      "cover_image_url": "data/covers/cover_158.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL20128158W",
+      "isbn": null,
+      "first_publish_year": 2019,
+      "language": "eng",
+      "ratings_count": 0
+    },
+    {
+      "id": 159,
+      "title": "The Struggle",
+      "author": "Lisa Jane Smith",
+      "genre": "Mystery",
+      "description": "The Vampire Diaries : a Trilogy, Vol II",
+      "cover_image_url": "data/covers/cover_159.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL277761W",
+      "isbn": null,
+      "first_publish_year": 1991,
+      "language": "eng",
+      "ratings_count": 0
+    },
+    {
+      "id": 160,
+      "title": "The Hitch Hiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "genre": "Science Fiction",
+      "description": "The Hitchhiker's Guide to the Galaxy is the first of six books in the Hitchhiker's Guide to the Galaxy comedy science fiction \"hexalogy\" by Douglas Adams. The novel is an adaptation of the first four",
+      "cover_image_url": "data/covers/cover_160.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL2163649W",
+      "isbn": null,
+      "first_publish_year": 1979,
+      "language": "cze",
+      "ratings_count": 0
+    },
+    {
+      "id": 161,
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "genre": "Science Fiction",
+      "description": "Ryland Grace is the sole survivor on a desperate, last-chance mission–and if he fails, humanity and the earth itself will perish. Except that right now, he doesn’t know that. He can’t even remember hi",
+      "cover_image_url": "data/covers/cover_161.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL21745884W",
+      "isbn": null,
+      "first_publish_year": 2021,
+      "language": "ger",
+      "ratings_count": 0
+    },
+    {
+      "id": 162,
+      "title": "Ender's Game",
+      "author": "Orson Scott Card",
+      "genre": "Science Fiction",
+      "description": "Ender's Game is a 1985 military science fiction novel by American author Orson Scott Card. Set at an unspecified date in Earth's future, the novel presents an imperiled humankind after two conflicts w",
+      "cover_image_url": "data/covers/cover_162.jpg",
+      "average_rating": 1.4382530528519577,
+      "openlibrary_key": "/works/OL49488W",
+      "isbn": null,
+      "first_publish_year": 1985,
+      "language": "pol",
+      "ratings_count": 0
+    },
+    {
+      "id": 163,
+      "title": "Stories of Your Life and Others",
+      "author": "Ted Chiang",
+      "genre": "Science Fiction",
+      "description": "Ted Chiang's first published story, \"Tower of Babylon,\" won the Nebula Award in 1990. Subsequent stories have won the Asimov's SF Magazine reader poll, a second Nebula Award, the Theodore Sturgeon Mem",
+      "cover_image_url": "data/covers/cover_163.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL6216050W",
+      "isbn": null,
+      "first_publish_year": 2002,
+      "language": "ita",
+      "ratings_count": 0
+    },
+    {
+      "id": 164,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Science Fiction",
+      "description": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the \"spice\" melange, a dr",
+      "cover_image_url": "data/covers/cover_164.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL893415W",
+      "isbn": null,
+      "first_publish_year": 1965,
+      "language": "pol",
+      "ratings_count": 0
+    },
+    {
+      "id": 165,
+      "title": "Second Foundation",
+      "author": "Isaac Asimov",
+      "genre": "Science Fiction",
+      "description": "After years of struggle, the Foundation lay in ruins -- destroyed by the mutant mind power of the Mule. But it was rumored that there was a Second Foundation hidden somewhere at the end of the Galaxy,",
+      "cover_image_url": "data/covers/cover_165.jpg",
+      "average_rating": 2.3036193610887197,
+      "openlibrary_key": "/works/OL46309W",
+      "isbn": null,
+      "first_publish_year": 1953,
+      "language": "ger",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_165.jpg",
+        "downloaded_at": "2025-11-13T19:16:49.329Z"
+      }
+    },
+    {
+      "id": 166,
+      "title": "Nineteen Eighty-Four",
+      "author": "George Orwell",
+      "genre": "Science Fiction",
+      "description": "Nineteen Eighty-Four: A Novel, often referred to as 1984, is a dystopian social science fiction novel by the English novelist George Orwell (the pen name of Eric Arthur Blair). It was published on 8 J",
+      "cover_image_url": "data/covers/cover_166.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL1168083W",
+      "isbn": null,
+      "first_publish_year": 1949,
+      "language": "swe",
+      "ratings_count": 0
+    },
+    {
+      "id": 167,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Science Fiction",
+      "description": "The Hobbit is a tale of high adventure, undertaken by a company of dwarves in search of dragon-guarded gold. A reluctant partner in this perilous quest is Bilbo Baggins, a comfort-loving unambitious h",
+      "cover_image_url": "data/covers/cover_167.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL27482W",
+      "isbn": null,
+      "first_publish_year": 1937,
+      "language": "swe",
+      "ratings_count": 0
+    },
+    {
+      "id": 168,
+      "title": "Works (Hitch Hiker's Guide to the Galaxy / Restaurant at the End of the Universe / Life, the Universe and Everything / So Long, and Thanks for All the Fish / Mostly Harmless / Young Zaphod Plays it Safe)",
+      "author": "Douglas Adams",
+      "genre": "Science Fiction",
+      "description": "This is the collection of all five of the books in Douglas Adams' famous galaxy exploring trilogy.  It follows Arthur Dent and his friends as they travel around the Milky Way meeting strange new cultu",
+      "cover_image_url": "data/covers/cover_168.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL2163706W",
+      "isbn": null,
+      "first_publish_year": 1996,
+      "language": "eng",
+      "ratings_count": 0
+    },
+    {
+      "id": 169,
+      "title": "A Clash of Kings",
+      "author": "George R. R. Martin",
+      "genre": "Science Fiction",
+      "description": "In this thrilling sequel to *A Game of Thrones*, George R. R. Martin has created a work of unsurpassed vision, power, and imagination. *A Clash of Kings* transports us to a world of revelry and reveng",
+      "cover_image_url": "data/covers/cover_169.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL257939W",
+      "isbn": null,
+      "first_publish_year": 1998,
+      "language": "pol",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_169.jpg",
+        "downloaded_at": "2025-11-13T19:16:52.014Z"
+      }
+    },
+    {
+      "id": 170,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "author": "J. K. Rowling",
+      "genre": "Science Fiction",
+      "description": "For Harry Potter, it’s the start of another far-from-ordinary year at Hogwarts when the Knight Bus crashes through the darkness and comes to an abrupt halt in front of him.\r\n\r\nIt turns out that Sirius",
+      "cover_image_url": "data/covers/cover_170.jpg",
+      "average_rating": 2.4571018125197046,
+      "openlibrary_key": "/works/OL82536W",
+      "isbn": null,
+      "first_publish_year": 1999,
+      "language": "kor",
+      "ratings_count": 0
+    },
+    {
+      "id": 171,
+      "title": "The Lightning Thief",
+      "author": "Rick Riordan",
+      "genre": "Science Fiction",
+      "description": "Twelve-year-old Percy Jackson is on the most dangerous quest of his life.  With the help of a satyr and a daughter of Athena, Percy must journey across the United States to catch a thief who has stole",
+      "cover_image_url": "data/covers/cover_171.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL492658W",
+      "isbn": null,
+      "first_publish_year": 2005,
+      "language": "ger",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_171.jpg",
+        "downloaded_at": "2025-11-13T19:16:53.357Z"
+      }
+    },
+    {
+      "id": 172,
+      "title": "Parable of the sower",
+      "author": "Octavia E. Butler",
+      "genre": "Science Fiction",
+      "description": "In 2025, with the world descending into madness and anarchy, one woman begins a fateful journey toward a better future.\r\n\r\nLauren Olamina and her family live in one of the only safe neighborhoods rema",
+      "cover_image_url": "data/covers/cover_172.jpg",
+      "average_rating": 1.2723812707728732,
+      "openlibrary_key": "/works/OL35623W",
+      "isbn": null,
+      "first_publish_year": 1993,
+      "language": "ger",
+      "ratings_count": 0
+    },
+    {
+      "id": 173,
+      "title": "The selfish gene",
+      "author": "Richard Dawkins",
+      "genre": "Science Fiction",
+      "description": "As influential today as when it was first published, The Selfish Gene has become a classic exposition of evolutionary thought. Professor Dawkins articulates a gene's eye view of evolution - a view giv",
+      "cover_image_url": "data/covers/cover_173.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL1966488W",
+      "isbn": null,
+      "first_publish_year": 1976,
+      "language": "eng",
+      "ratings_count": 0
+    },
+    {
+      "id": 174,
+      "title": "A Game of Thrones",
+      "author": "George R. R. Martin",
+      "genre": "Science Fiction",
+      "description": "***A Game of Thrones*** is the inaugural novel in ***A Song of Ice and Fire***, an epic series of fantasy novels crafted by the American author **George R. R. Martin**. Published on August 1, 1996, th",
+      "cover_image_url": "data/covers/cover_174.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL257943W",
+      "isbn": null,
+      "first_publish_year": 1996,
+      "language": "fre",
+      "ratings_count": 0
+    },
+    {
+      "id": 175,
+      "title": "The One (The Selection #3)",
+      "author": "Kiera Cass",
+      "genre": "Science Fiction",
+      "description": "THE SELECTION changed the lives of thirty-five girls forever. Now, only one will claim Prince Maxon’s heart…\r\n\r\nIt’s swoon meets the Hunger Games in the final instalment of THE SELECTION trilogy!\r\n\r\nF",
+      "cover_image_url": "data/covers/cover_175.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL16925622W",
+      "isbn": null,
+      "first_publish_year": 2012,
+      "language": "eng",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_175.jpg",
+        "downloaded_at": "2025-11-13T19:16:54.674Z"
+      }
+    },
+    {
+      "id": 176,
+      "title": "Kindred",
+      "author": "Octavia E. Butler",
+      "genre": "Science Fiction",
+      "description": "Dana, a modern black woman, is celebrating her twenty-sixth birthday with her new husband when she is snatched abruptly from her home in California and transported to the antebellum South. Rufus, the",
+      "cover_image_url": "data/covers/cover_176.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL35616W",
+      "isbn": null,
+      "first_publish_year": 1979,
+      "language": "ita",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_176.jpg",
+        "downloaded_at": "2025-11-13T19:16:57.562Z"
+      }
+    },
+    {
+      "id": 177,
+      "title": "I, Robot",
+      "author": "Isaac Asimov",
+      "genre": "Science Fiction",
+      "description": "I, Robot is a fixup novel of science fiction short stories or essays by American writer Isaac Asimov. The stories originally appeared in the American magazines Super Science Stories and Astounding Sci",
+      "cover_image_url": "data/covers/cover_177.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL46241W",
+      "isbn": null,
+      "first_publish_year": 1950,
+      "language": "dut",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_177.jpg",
+        "downloaded_at": "2025-11-13T19:16:59.865Z"
+      }
+    },
+    {
+      "id": 178,
+      "title": "Making Money",
+      "author": "Terry Pratchett",
+      "genre": "Science Fiction",
+      "description": "The Ankh-Morpork Post Office is running like . . . well, not at all like a government office. The mail is delivered promptly; meetings start and end on time; five out of six letters relegated to the B",
+      "cover_image_url": "data/covers/cover_178.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL453907W",
+      "isbn": null,
+      "first_publish_year": 2007,
+      "language": "pol",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_178.jpg",
+        "downloaded_at": "2025-11-13T19:17:02.210Z"
+      }
+    },
+    {
+      "id": 179,
+      "title": "Cryptonomicon",
+      "author": "Neal Stephenson",
+      "genre": "Science Fiction",
+      "description": "Neal Stephenson hacks into the secret histories of nations and the private obsessions of men, decrypting with dazzling virtuosity the forces that shaped this century.\r\n\r\nIn 1942, Lawrence Pritchard Wa",
+      "cover_image_url": "data/covers/cover_179.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL38494W",
+      "isbn": null,
+      "first_publish_year": 1999,
+      "language": "eng",
+      "ratings_count": 0
+    },
+    {
+      "id": 180,
+      "title": "Caliban's war",
+      "author": "James S. A. Corey",
+      "genre": "Science Fiction",
+      "description": "The second book in the NYT best-selling Expanse series, Caliban's War shows a solar system on the brink of war, and the only hope of peace rests on James Holden and the crew of the Rocinante's shoulde",
+      "cover_image_url": "data/covers/cover_180.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL16117275W",
+      "isbn": null,
+      "first_publish_year": 2012,
+      "language": "ger",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_180.jpg",
+        "downloaded_at": "2025-11-13T19:17:03.654Z"
+      }
+    },
+    {
+      "id": 181,
+      "title": "Death's End (The Three-Body Problem Series Book 3)",
+      "author": "刘慈欣",
+      "genre": "Science Fiction",
+      "description": "Soon to be a Netflix Original Series!\r\n\r\n“The War of the Worlds for the 21st century… packed with a sense of wonder.” – Wall Street Journal\r\n\r\nThe New York Times bestselling conclusion to a tour de fo",
+      "cover_image_url": "data/covers/cover_181.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL17610507W",
+      "isbn": null,
+      "first_publish_year": 2010,
+      "language": "ger",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_181.jpg",
+        "downloaded_at": "2025-11-13T19:17:04.799Z"
+      }
+    },
+    {
+      "id": 182,
+      "title": "Leviathan Wakes",
+      "author": "James S. A. Corey",
+      "genre": "Science Fiction",
+      "description": "When Captain Jim Holden's ice miner stumbles across a derelict, abandoned ship, he uncovers a secret that threatens to throw the entire system into war. Attacked by a stealth ship belonging to the Mar",
+      "cover_image_url": "data/covers/cover_182.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL16114008W",
+      "isbn": null,
+      "first_publish_year": 2009,
+      "language": "fre",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_182.jpg",
+        "downloaded_at": "2025-11-13T19:17:05.657Z"
+      }
+    },
+    {
+      "id": 183,
+      "title": "Tiamat's Wrath",
+      "author": "James S. A. Corey",
+      "genre": "Science Fiction",
+      "description": "Tiamat's Wrath is a science fiction novel by James S. A. Corey, the pen name of Daniel Abraham and Ty Franck, and the eighth book in their series The Expanse. Following the series' tradition of referr",
+      "cover_image_url": "data/covers/cover_183.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL19800273W",
+      "isbn": null,
+      "first_publish_year": 2019,
+      "language": "pol",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_183.jpg",
+        "downloaded_at": "2025-11-13T19:17:08.080Z"
+      }
+    },
+    {
+      "id": 184,
+      "title": "Married at first sight",
+      "author": "Gu Lingfei",
+      "genre": "Romance",
+      "description": "A romance book by Gu Lingfei.",
+      "cover_image_url": "data/covers/cover_184.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL35223328W",
+      "isbn": null,
+      "first_publish_year": 2015,
+      "language": "eng",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_184.jpg",
+        "downloaded_at": "2025-11-13T19:17:10.286Z"
+      }
+    },
+    {
+      "id": 185,
+      "title": "The Nightingale",
+      "author": "Kristin Hannah",
+      "genre": "Romance",
+      "description": "Despite their differences, sisters Vianne and Isabelle have always been close. Younger, bolder Isabelle lives in Paris while Vianne is content with life in the French countryside with her husband Anto",
+      "cover_image_url": "data/covers/cover_185.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL17116910W",
+      "isbn": null,
+      "first_publish_year": 2000,
+      "language": "spa",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_185.jpg",
+        "downloaded_at": "2025-11-13T19:17:12.626Z"
+      }
+    },
+    {
+      "id": 186,
+      "title": "Queen of Shadows",
+      "author": "Sarah J. Maas",
+      "genre": "Romance",
+      "description": "Everyone Celaena Sardothien loves has been taken from her. But she's at last returned to the empire-for vengeance, to rescue her once-glorious kingdom, and to confront the shadows of her past...\r\n\r\nSh",
+      "cover_image_url": "data/covers/cover_186.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL17718538W",
+      "isbn": null,
+      "first_publish_year": 2015,
+      "language": "tur",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_186.jpg",
+        "downloaded_at": "2025-11-13T19:17:13.965Z"
+      }
+    },
+    {
+      "id": 187,
+      "title": "El Conde de Montecristo",
+      "author": "Alexandre Dumas",
+      "genre": "Romance",
+      "description": "A romance book by Alexandre Dumas.",
+      "cover_image_url": "data/covers/cover_187.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL36287W",
+      "isbn": null,
+      "first_publish_year": 1830,
+      "language": "swe",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_187.jpg",
+        "downloaded_at": "2025-11-13T19:17:15.966Z"
+      }
+    },
+    {
+      "id": 188,
+      "title": "Le petit prince",
+      "author": "Antoine de Saint-Exupéry",
+      "genre": "Romance",
+      "description": "*Le Petit Prince* est une œuvre de langue française, la plus connue d'Antoine de Saint-Exupéry. Publié en 1943 à New York simultanément à sa traduction anglaise, c'est une œuvre poétique et philosophi",
+      "cover_image_url": "data/covers/cover_188.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL10263W",
+      "isbn": null,
+      "first_publish_year": 1943,
+      "language": "kor",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_188.jpg",
+        "downloaded_at": "2025-11-13T19:17:18.181Z"
+      }
+    },
+    {
+      "id": 189,
+      "title": "It Ends With Us",
+      "author": "Colleen Hoover",
+      "genre": "Romance",
+      "description": "Lily hasn’t always had it easy, but that’s never stopped her from working hard for the life she wants. She’s come a long way from the small town where she grew up—she graduated from college, moved to",
+      "cover_image_url": "data/covers/cover_189.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL18020194W",
+      "isbn": null,
+      "first_publish_year": 2012,
+      "language": "kor",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_189.jpg",
+        "downloaded_at": "2025-11-13T19:17:20.493Z"
+      }
+    },
+    {
+      "id": 190,
+      "title": "Heartstopper, Volume 3",
+      "author": "Alice Oseman",
+      "genre": "Romance",
+      "description": "The third volume in the poignant and sweet Heartstopper series, featuring beautiful two-color artwork!\r\n\r\nNow streaming on Netflix!\r\n\r\nCharlie didn't think Nick could ever like him back, but now they'",
+      "cover_image_url": "data/covers/cover_190.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL20736929W",
+      "isbn": null,
+      "first_publish_year": 2020,
+      "language": "eng",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_190.jpg",
+        "downloaded_at": "2025-11-13T19:17:22.515Z"
+      }
+    },
+    {
+      "id": 191,
+      "title": "House of Hades",
+      "author": "Rick Riordan",
+      "genre": "Romance",
+      "description": "Hazel stands at a crossroads. She and the remaining crew of the Argo II could return home with the Athena Parthenos statue and try to stop Camp Half-Blood and Camp Jupiter from going to war. Or they c",
+      "cover_image_url": "data/covers/cover_191.jpg",
+      "average_rating": null,
+      "openlibrary_key": "/works/OL16807730W",
+      "isbn": null,
+      "first_publish_year": 2013,
+      "language": "pol",
+      "ratings_count": 0,
+      "cover_metadata": {
+        "openlibrary_url": "data/covers/cover_191.jpg",
+        "downloaded_at": "2025-11-13T19:17:25.214Z"
+      }
+    }
+  ]
+}

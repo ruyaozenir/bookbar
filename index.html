@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookBar - Book Sharing Platform</title>
+    <meta name="description" content="Social platform for book lovers - Share, rate, and borrow books">
+    
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="BookBar - Book Sharing Platform">
+    <meta property="og:description" content="Social platform for book lovers">
+    <meta property="og:type" content="website">
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+    <link rel="stylesheet" href="bookshelf.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-left">
+                <a href="#" class="logo">
+                    <span class="logo-bb">
+                        <span class="b1">B</span><span class="b2">B</span>
+                    </span>
+                    <span class="logo-text">BookBar</span>
+                </a>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#" id="nav-books" data-i18n="nav.books">Book List</a></li>
+                        <li><a href="#" id="nav-favorites" data-i18n="nav.favorites">My Favorites</a></li>
+                        <li><a href="#" id="nav-authors" data-i18n="nav.authors">Authors</a></li>
+                        <li class="nav-dropdown">
+                            <a href="#" id="nav-community" data-i18n="nav.community">Community</a>
+                            <ul class="dropdown-menu" id="community-dropdown">
+                                <li><a href="#" id="nav-people" data-i18n="nav.people">People</a></li>
+                                <li><a href="#" id="nav-messages" data-i18n="nav.messages">Messages</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right">
+                <div class="language-switcher" id="language-switcher" title="Switch language">
+                    <span class="current-lang">EN</span>
+                    <span class="lang-separator">/</span>
+                    <span class="other-lang">CS</span>
+                </div>
+                <div class="header-auth-buttons" id="auth-buttons">
+                    <button class="btn-login" id="btn-login" data-i18n="auth.login">LOG IN</button>
+                    <button class="btn-signup" id="btn-signup" data-i18n="auth.signup">SIGN UP</button>
+                </div>
+                <div class="user-menu" id="user-menu" style="display: none;">
+                    <span id="user-name"></span>
+                    <div class="user-avatar" id="user-avatar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <aside class="sidebar">
+                <div class="filter-section">
+                    <h3>Filters</h3>
+                    
+                    <div class="filter-group">
+                        <label>Rating Filter</label>
+                        <div class="star-filter-checkboxes">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="star-1" value="1" checked>
+                                ⭐ 1 Star
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="star-2" value="2" checked>
+                                ⭐⭐ 2 Stars
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="star-3" value="3" checked>
+                                ⭐⭐⭐ 3 Stars
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="star-4" value="4" checked>
+                                ⭐⭐⭐⭐ 4 Stars
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="star-5" value="5" checked>
+                                ⭐⭐⭐⭐⭐ 5 Stars
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="star-0" value="0" checked>
+                                ☆ Not Rated
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Sort By</label>
+                        <select id="sort-order">
+                            <option value="custom" selected>Custom Order</option>
+                            <option value="acquiredTime">Date Added</option>
+                            <option value="title">Title</option>
+                            <option value="authors">Author</option>
+                        </select>
+                        <button id="sort-direction" class="btn btn-small">↓ Newest</button>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Items Per Page</label>
+                        <select id="books-per-page">
+                            <option value="25">25 Books</option>
+                            <option value="50" selected>50 Books</option>
+                            <option value="100">100 Books</option>
+                            <option value="200">200 Books</option>
+                            <option value="all">All</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Cover Size</label>
+                        <select id="cover-size">
+                            <option value="small">Small (120×180px)</option>
+                            <option value="medium" selected>Medium (160×240px)</option>
+                            <option value="large">Large (200×300px)</option>
+                        </select>
+                    </div>
+                </div>
+            </aside>
+
+            <section class="bookshelf-container">
+                <div class="search-box" style="margin-bottom: 2rem;">
+                    <input type="text" id="search-input" data-i18n="search.placeholder" placeholder="Search by book title or author...">
+                </div>
+                
+                <div class="loading" id="loading">
+                    📚 Loading books...
+                </div>
+                
+                <div class="bookshelf" id="bookshelf">
+                    <!-- Books will be dynamically loaded here -->
+                </div>
+                
+                <div class="pagination" id="pagination">
+                    <!-- Pagination controls will be added here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 BookBar - Book Sharing Platform</p>
+        </div>
+    </footer>
+
+    <!-- Book detail modal -->
+    <div class="modal" id="book-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">×</button>
+            <div class="modal-body" id="modal-body">
+                <!-- Book details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Bookshelf Management Modal -->
+    <div id="bookshelf-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="bookshelf-modal-close">×</button>
+            <div class="modal-header">
+                <h2>📚 Shelf Management</h2>
+                <button id="add-bookshelf" class="btn btn-primary">+ New Shelf</button>
+            </div>
+            <div id="bookshelves-list">
+                <!-- Bookshelves will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Bookshelf Form Modal -->
+    <div id="bookshelf-form-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="bookshelf-form-modal-close">×</button>
+            <div class="modal-header">
+                <h2 id="bookshelf-form-title">📚 New Shelf</h2>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="bookshelf-name">Shelf Name *</label>
+                    <input type="text" id="bookshelf-name" placeholder="Enter shelf name" required>
+                </div>
+                <div class="form-group">
+                    <label for="bookshelf-emoji">Emoji</label>
+                    <input type="text" id="bookshelf-emoji" placeholder="📚" value="📚" maxlength="2">
+                </div>
+                <div class="form-group">
+                    <label for="bookshelf-description">Description</label>
+                    <textarea id="bookshelf-description" placeholder="Optional description for this shelf" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="bookshelf-is-public">
+                        📤 Make this shelf public (required for static page generation)
+                    </label>
+                </div>
+                <div class="form-actions" style="margin-top: 2rem; display: flex; gap: 1rem; justify-content: flex-end;">
+                    <button id="cancel-bookshelf-form" class="btn btn-secondary">Cancel</button>
+                    <button id="save-bookshelf-form" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Static Bookshelf Share Modal -->
+    <div id="static-share-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="static-share-modal-close">×</button>
+            <div class="modal-header">
+                <h2>📄 Generate Static Page</h2>
+            </div>
+            <div class="modal-body">
+                <div id="share-generation-form">
+
+                    <div class="form-actions">
+                        <button id="generate-static-page" class="btn btn-primary">📄 Generate static page</button>
+                        <button id="cancel-static-share" class="btn btn-secondary">Cancel</button>
+                    </div>
+                </div>
+                <div id="share-results" style="display: none;">
+                    <div class="share-result-content">
+                        <!-- Generation results will be shown here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Book Management Modals -->
+    <!-- Kindle Import Modal -->
+    <div id="import-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="import-modal-close">×</button>
+            <div class="modal-header">
+                <h2>📥 Import Kindle Data</h2>
+            </div>
+            <div class="modal-body">
+                <div class="import-options">
+                    <div class="import-option">
+                        <h3>Import from file</h3>
+                        <input type="file" id="kindle-file-input" accept=".json" />
+                        <button id="import-from-file" class="btn btn-primary">Import file</button>
+                    </div>
+
+                </div>
+                <div id="book-selection" class="book-selection" style="display: none;">
+                    <h3>📚 Select books to import</h3>
+                    <div class="selection-controls">
+                        <div class="filter-options" style="margin-bottom: 1rem;">
+                            <label style="display: flex; align-items: center; gap: 0.5rem;">
+                                <input type="checkbox" id="hide-existing-books" checked>
+                                <span>📚 Hide books already imported</span>
+                            </label>
+                        </div>
+                        <button id="select-all-books" class="btn btn-small">Select all</button>
+                        <button id="deselect-all-books" class="btn btn-small">Clear all</button>
+                        <span class="selected-count">Selected: <span id="selected-count">0</span> books</span>
+                    </div>
+                    <div id="book-list" class="book-selection-list">
+                        <!-- Book selection checkboxes will be populated here -->
+                    </div>
+                    <div class="import-actions">
+                        <button id="import-selected-books" class="btn btn-primary" disabled>Import selected books</button>
+                        <button id="cancel-import" class="btn btn-secondary">Cancel</button>
+                    </div>
+                </div>
+                <div id="import-results" class="import-results" style="display: none;">
+                    <!-- Import results will be shown here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Manual Book Addition Modal -->
+    <div id="add-book-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="add-book-modal-close">×</button>
+            <div class="modal-header">
+                <h2>➕ Add Book Manually</h2>
+            </div>
+            <div class="modal-body">
+                <div class="add-book-options">
+                    <div class="add-option">
+                        <h3>Enter Book Information</h3>
+                        <div class="form-group">
+                            <label for="manual-asin">ASIN</label>
+                            <div class="asin-input-container">
+                                <input type="text" id="manual-asin" placeholder="B012345678" maxlength="10" />
+                                <button type="button" id="fetch-book-info" class="btn btn-small btn-secondary">📥 Auto Fetch</button>
+                            </div>
+                            <div class="asin-status" id="asin-status" style="display: none;"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="manual-title">Title</label>
+                            <input type="text" id="manual-title" placeholder="Book Title" />
+                        </div>
+                        <div class="form-group">
+                            <label for="manual-authors">Author</label>
+                            <input type="text" id="manual-authors" placeholder="Author Name" />
+                        </div>
+
+                        <button id="add-manually" class="btn btn-primary">Add Book</button>
+                    </div>
+                </div>
+                <div id="add-book-results" class="add-results" style="display: none;">
+                    <!-- Addition results will be shown here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="login-modal-close">×</button>
+            <div class="modal-header">
+                <h2>Log In</h2>
+            </div>
+            <div class="modal-body">
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="login-email">Email</label>
+                        <input type="email" id="login-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" required>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Log In</button>
+                        <button type="button" class="btn btn-secondary" id="cancel-login">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- JSON Import Modal -->
+    <div id="json-import-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="json-import-modal-close">×</button>
+            <div class="modal-header">
+                <h2>📥 Import Books from JSON</h2>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="json-input">Paste your JSON data here:</label>
+                    <textarea id="json-input" rows="15" placeholder='[{"title": "Book Title", "author": "Author Name", "description": "Description", "genre": "Genre", "cover_image": "URL", "asin": "ASIN"}]' style="width: 100%; font-family: monospace; font-size: 12px; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px;"></textarea>
+                    <small style="display: block; margin-top: 0.5rem; color: #666;">JSON format: Array of book objects with title, author, description, genre, cover_image, asin</small>
+                </div>
+                <div class="form-group">
+                    <label>Or upload JSON file:</label>
+                    <input type="file" id="json-file-input" accept=".json" style="width: 100%; padding: 0.5rem;" />
+                </div>
+                <div id="json-import-results" style="display: none; margin-top: 1rem; padding: 1rem; background: #f0f9ff; border-radius: 8px;">
+                    <!-- Results will be shown here -->
+                </div>
+                <div class="form-actions">
+                    <button id="import-json-btn" class="btn btn-primary">Import Books</button>
+                    <button type="button" class="btn btn-secondary" id="cancel-json-import">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="signup-modal-close">×</button>
+            <div class="modal-header">
+                <h2>Sign Up</h2>
+            </div>
+            <div class="modal-body">
+                <form id="signup-form">
+                    <div class="form-group">
+                        <label for="signup-name">Full Name</label>
+                        <input type="text" id="signup-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-email">Email</label>
+                        <input type="email" id="signup-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-password">Password</label>
+                        <input type="password" id="signup-password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-bio">About Me (Optional)</label>
+                        <textarea id="signup-bio" rows="3"></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                        <button type="button" class="btn btn-secondary" id="cancel-signup">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="translations.js"></script>
+    <script src="book-manager.js?v=20251113"></script>
+    <script src="highlights.js?v=20251113"></script>
+    <script src="static-bookshelf-generator.js?v=20251113"></script>
+    <script src="bookshelf.js?v=20251113"></script>
+    <script>
+        // Initialize language switcher - wait for translations.js to load
+        function initLanguageSwitcher() {
+            const languageSwitcher = document.getElementById('language-switcher');
+            if (languageSwitcher) {
+                // Wait for translationManager to be available
+                const checkManager = setInterval(() => {
+                    if (window.translationManager) {
+                        clearInterval(checkManager);
+                        languageSwitcher.addEventListener('click', function(e) {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            if (window.translationManager) {
+                                window.translationManager.toggleLanguage();
+                            }
+                        });
+                        // Update initial display
+                        window.translationManager.updateLanguageSwitcher();
+                    }
+                }, 100);
+                
+                // Timeout after 5 seconds
+                setTimeout(() => clearInterval(checkManager), 5000);
+            }
+        }
+        
+        // Try to initialize when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initLanguageSwitcher);
+        } else {
+            initLanguageSwitcher();
+        }
+    </script>
+</body>
+</html>

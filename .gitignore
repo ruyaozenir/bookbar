@@ -1,0 +1,14 @@
+node_modules/
+bookbar.db
+bookbar.db-journal
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+

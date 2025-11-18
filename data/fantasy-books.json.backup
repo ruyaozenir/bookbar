@@ -1,0 +1,1615 @@
+{
+  "fantasy": [
+    {
+      "id": 1,
+      "title": "Alchemy of Secrets",
+      "author": "Stephanie Garber",
+      "genre": "Fantasy",
+      "description": "A novel of secrets, spells, and forgotten magic.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/713vU-o5rXL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 2,
+      "title": "Bonds of Hercules",
+      "author": "Jasmine Mas",
+      "genre": "Fantasy / Mythology",
+      "description": "A dark mythological romance with gods and monsters.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/714R8XW1dUL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 3,
+      "title": "The Wrath of the Fallen",
+      "author": "Amber V. Nicole",
+      "genre": "Fantasy / Dark Fantasy",
+      "description": "A tale of a fallen kingdom and the wrath of ancient beings.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/711J0S5K4jL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 4,
+      "title": "The Everlasting",
+      "author": "Alix E. Harrow",
+      "genre": "Fantasy",
+      "description": "A legend, a lie, a love story spanning generations.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 5,
+      "title": "Hazelthorn",
+      "author": "C.D. Drews",
+      "genre": "Fantasy / Historical",
+      "description": "A haunting story set in a world of mystery and magic.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71g0V6+hHRL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.7
+    },
+    {
+      "id": 6,
+      "title": "The Ascended",
+      "author": "Greenwood & Lennox",
+      "genre": "Fantasy / Dark Fantasy",
+      "description": "A dark fantasy about power, betrayal, and ascending to divinity.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/719h8p6bSjL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 7,
+      "title": "The Things Gods Break",
+      "author": "Abigail Owen",
+      "genre": "Fantasy / Mythology",
+      "description": "A thrilling adventure where even the gods are vulnerable.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71N+t1mN85L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 8,
+      "title": "Conform",
+      "author": "Ariel Sullivan",
+      "genre": "Fantasy / Dystopian",
+      "description": "In a world of rigid rules, one choice defies everything.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/611D3lC9VVL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.5
+    },
+    {
+      "id": 9,
+      "title": "King Sorrow",
+      "author": "Joe Hill",
+      "genre": "Fantasy / Horror",
+      "description": "A dark and gripping fantasy from a master storyteller.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81oYg-1iJzL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 10,
+      "title": "The Magic Murder",
+      "author": "The Callahans",
+      "genre": "Fantasy / Mystery",
+      "description": "A whimsical mystery where magic meets crime.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81P2h0Fq2eL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.8
+    },
+    {
+      "id": 11,
+      "title": "The Princess Knight",
+      "author": "Gail Z. Martin",
+      "genre": "Fantasy / Young Adult",
+      "description": "A young princess fights to save her kingdom in disguise.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71R2cE8W2rL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.6
+    },
+    {
+      "id": 12,
+      "title": "Red City",
+      "author": "Marie Lu",
+      "genre": "Fantasy / Dystopian",
+      "description": "A high-stakes thriller set in a futuristic, divided city.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71s8p0yHkBL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 13,
+      "title": "Our Vicious Oaths",
+      "author": "N. E. Davenport",
+      "genre": "Fantasy",
+      "description": "Sequel to a compelling saga of power and promises.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71R7k2NqfML._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 14,
+      "title": "Never Ever After",
+      "author": "Sue Lynn Tan",
+      "genre": "Fantasy / Fairytale",
+      "description": "A beautiful and enchanting retelling of classic myths.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81z7Y6Z4L3L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 15,
+      "title": "The Book of Autumn",
+      "author": "Holly O'Sullivan",
+      "genre": "Fantasy / Cozy Fantasy",
+      "description": "A cozy, magical read perfect for the autumn season.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71Y-oDqj8rL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 16,
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "genre": "Fiction / Fantasy",
+      "description": "Between life and death, there is a library.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/91r11n-R7gL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 17,
+      "title": "Powerless",
+      "author": "Lauren Roberts",
+      "genre": "Fantasy / Romantasy",
+      "description": "A New York Times Best Seller fantasy novel about a world where power means everything.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81D+6w-w1XL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.6
+    },
+    {
+      "id": 18,
+      "title": "Reckless",
+      "author": "Lauren Roberts",
+      "genre": "Fantasy / Romantasy",
+      "description": "Sequel to Powerless, where the dangerous game continues.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81rFfXj-n7L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 19,
+      "title": "The Ballad of Songbirds and Snakes",
+      "author": "Suzanne Collins",
+      "genre": "Dystopian / Young Adult",
+      "description": "A prequel to the Hunger Games series.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71rB8p94L8L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 20,
+      "title": "The Night Prince",
+      "author": "Lauren Palphreyman",
+      "genre": "Fantasy / Young Adult",
+      "description": "A princess caught between two powerful alphas fighting for the throne.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71VjXyP+XhL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.7
+    },
+    {
+      "id": 21,
+      "title": "Shield of Sparrows",
+      "author": "Devney Perry",
+      "genre": "Fantasy / Romance",
+      "description": "A world on the verge of destruction, and the strength to become a Guardian.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71L54qH-m2L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 22,
+      "title": "Once Upon a Broken Heart",
+      "author": "Stephanie Garber",
+      "genre": "Fantasy / Romantasy",
+      "description": "Evangeline strikes a deal with the charismatic but wicked Prince of Hearts.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 23,
+      "title": "A Curse for True Love",
+      "author": "Stephanie Garber",
+      "genre": "Fantasy / Romantasy",
+      "description": "The breathtaking conclusion to the Once Upon a Broken Heart trilogy.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 24,
+      "title": "Heartless Hunter",
+      "author": "Kristen Ciccarelli",
+      "genre": "Fantasy",
+      "description": "A fierce heroine in a world where power means everything.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 25,
+      "title": "The Ballad of Never After",
+      "author": "Stephanie Garber",
+      "genre": "Fantasy / Romantasy",
+      "description": "The jaw-dropping sequel to Once Upon a Broken Heart.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 26,
+      "title": "Assistant to the Villain",
+      "author": "Hannah Nicole Maehrer",
+      "genre": "Fantasy / Comedy",
+      "description": "Once Upon a Time meets The Office.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71R377l1HqL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 27,
+      "title": "Twice",
+      "author": "Mitch Albom",
+      "genre": "Fiction / Fantasy",
+      "description": "A story that explores the human heart, the impact of choices, and the concept of a 'second chance'.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71+2d-W44tL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.8
+    },
+    {
+      "id": 28,
+      "title": "Realm of Wind and Vines",
+      "author": "Marion Blackwood",
+      "genre": "Fantasy / Romance",
+      "description": "A saga where power is as seductive as it is deadly.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.6
+    },
+    {
+      "id": 29,
+      "title": "Remain",
+      "author": "M. Night Shyamalan & Cameron Rogers",
+      "genre": "Fiction / Supernatural",
+      "description": "A supernatural love story and mystery.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.5
+    },
+    {
+      "id": 30,
+      "title": "Divine Rivals",
+      "author": "Rebecca Ross",
+      "genre": "Fantasy / Romance",
+      "description": "A beautiful and romantic story set against an imaginative, dangerous world.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 31,
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "genre": "Mystery / Psychological Thriller",
+      "description": "A criminal psychotherapist and his famous patient who refuses to speak.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/717v2-t4x4L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 32,
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "genre": "Mystery / Psychological Thriller",
+      "description": "A wife disappears on her fifth wedding anniversary, leaving a trail of clues.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/718yW8u2MKL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 33,
+      "title": "The Guest List",
+      "author": "Lucy Fokley",
+      "genre": "Mystery / Suspense",
+      "description": "A wedding celebration turned deadly on a remote Irish island.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/7187qM3H-GL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 34,
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "genre": "Mystery / Crime",
+      "description": "A journalist teams up with a hacker to investigate a disappearance.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/611jE-t3Q0L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 35,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery / Thriller",
+      "description": "A thrilling hunt for a historical secret involving ancient codes.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71o39z3o7oL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.8
+    },
+    {
+      "id": 36,
+      "title": "The Woman in Cabin 10",
+      "author": "Ruth Ware",
+      "genre": "Mystery / Suspense",
+      "description": "A journalist witnesses a body thrown overboard from a cruise ship.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81B-j-l1tML._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 37,
+      "title": "In the Woods",
+      "author": "Tana French",
+      "genre": "Mystery / Police Procedural",
+      "description": "A detective investigates a murder that echoes his own past tragedy.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71qS2Y47dCL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 38,
+      "title": "Before I Go to Sleep",
+      "author": "S. J. Watson",
+      "genre": "Psychological Thriller",
+      "description": "A woman wakes up every day with no memory of her life.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/715QeQ1T+VL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 39,
+      "title": "The Dry",
+      "author": "Jane Harper",
+      "genre": "Mystery / Noir",
+      "description": "A detective returns to his drought-stricken hometown to face a murder.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81-0T0k2dXL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 40,
+      "title": "Big Little Lies",
+      "author": "Liane Moriarty",
+      "genre": "Mystery / Domestic Thriller",
+      "description": "The hidden lives of three mothers intertwine, leading to a murder.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81qEw7+5wUL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 41,
+      "title": "Finding Grace",
+      "author": "Loretta Schaefer",
+      "genre": "Thriller / Suspense",
+      "description": "A novel about finding hope and survival in darkness.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/61y8A2i+hPL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 42,
+      "title": "How to Solve Your Own Murder",
+      "author": "Kristen Perrin",
+      "genre": "Mystery / Cozy",
+      "description": "A woman receives a prediction of her own murder and sets out to solve it.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/719h8p6bSjL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 43,
+      "title": "Those Empty Eyes",
+      "author": "Charlie Donlea",
+      "genre": "Psychological Thriller",
+      "description": "A victim returns to the spotlight to find her abductor.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71N+t1mN85L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 44,
+      "title": "What Lies in the Woods",
+      "author": "Kate Alice Marshall",
+      "genre": "Thriller / Crime",
+      "description": "Three friends reunite after twenty-two years to confront a shared, dark secret.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81qEw7+5wUL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 45,
+      "title": "Snake Eater",
+      "author": "T. Kingfisher",
+      "genre": "Fantasy / Horror",
+      "description": "A chilling and weird horror fantasy novel.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71R2cE8W2rL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 46,
+      "title": "The Scammer",
+      "author": "Tiffany D. Jackson",
+      "genre": "Young Adult Thriller",
+      "description": "A YA thriller about online deception and true identities.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71L54qH-m2L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 47,
+      "title": "Forget You Saw Her",
+      "author": "Noelle W. Ihli",
+      "genre": "Thriller / Suspense",
+      "description": "A suspenseful story about witnessing a crime and the consequences.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71R377l1HqL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.8
+    },
+    {
+      "id": 48,
+      "title": "Eerie Basin",
+      "author": "Ivy Pochoda",
+      "genre": "Mystery / Crime",
+      "description": "An Amazon Original story set in a mysterious, isolated town.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81D+6w-w1XL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 49,
+      "title": "The First Gentleman",
+      "author": "Bill Clinton & James Patterson",
+      "genre": "Thriller / Political",
+      "description": "A high-stakes political thriller co-written by a former US President.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71Y-oDqj8rL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 50,
+      "title": "Apostle's Cove",
+      "author": "William Kent Krueger",
+      "genre": "Mystery / Suspense",
+      "description": "A new novel in the Cork O'Connor mystery series.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71R7k2NqfML._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 51,
+      "title": "You Must Be New Here",
+      "author": "Katie Sise",
+      "genre": "Domestic Thriller",
+      "description": "A thrilling tale of motherhood, secrets, and a seemingly perfect community.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81rFfXj-n7L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.7
+    },
+    {
+      "id": 52,
+      "title": "More Than Nothing",
+      "author": "Sophie Hamilton",
+      "genre": "Fiction / Contemporary",
+      "description": "A moving story about life, loss, and finding purpose.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81z7Y6Z4L3L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 53,
+      "title": "Survive the Night",
+      "author": "Riley Sager",
+      "genre": "Psychological Thriller",
+      "description": "A terrifying road trip where the passenger might be a killer.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 54,
+      "title": "The Stranger in the Lifeboat",
+      "author": "Mitch Albom",
+      "genre": "Fiction / Inspirational",
+      "description": "A spiritual fable about a group of shipwrecked survivors who find a stranger in the sea.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71+2d-W44tL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 55,
+      "title": "Cry Havoc",
+      "author": "Jack Carr",
+      "genre": "Thriller / Action",
+      "description": "The latest high-octane thriller in the James Reece series.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71qS2Y47dCL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 56,
+      "title": "Murder Takes a Vacation",
+      "author": "Laura Lippman",
+      "genre": "Mystery",
+      "description": "A collection of short mystery stories.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/816s4sL9xPL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 57,
+      "title": "One of Us is Back",
+      "author": "Karen M. McManus",
+      "genre": "Young Adult Mystery",
+      "description": "The final book in the One of Us Is Lying series.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81D+6w-w1XL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 58,
+      "title": "The Girl Behind the Gates",
+      "author": "Brenda Davies",
+      "genre": "Historical Fiction / Drama",
+      "description": "A heart-wrenching true story set in a mental hospital.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71vR4s2x+hL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 59,
+      "title": "Denied Access",
+      "author": "Vince Flynn",
+      "genre": "Thriller / Political",
+      "description": "A thrilling political espionage novel.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/713vU-o5rXL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 60,
+      "title": "Hex Around and Find Out",
+      "author": "Various Authors",
+      "genre": "Fantasy / Cozy Mystery",
+      "description": "An audible original collection of cozy witchy mysteries.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81g0V6+hHRL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 61,
+      "title": "False Note",
+      "author": "David Lagercrantz",
+      "genre": "Thriller / Crime",
+      "description": "A continuation of the Lisbeth Salander and Mikael Blomkvist series.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/611D3lC9VVL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.8
+    },
+    {
+      "id": 62,
+      "title": "Marrow Murder",
+      "author": "Robert Thorogood",
+      "genre": "Cozy Mystery",
+      "description": "A lighthearted, classic style murder mystery.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71N+t1mN85L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 63,
+      "title": "Fallen Star",
+      "author": "Lee Goldberg",
+      "genre": "Thriller / Crime",
+      "description": "A fast-paced crime thriller by a best-selling author.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 64,
+      "title": "The Housemaid's Secret",
+      "author": "Freida McFadden",
+      "genre": "Psychological Thriller",
+      "description": "A thrilling sequel where nothing is as it seems.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71YyM9lS+UL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 65,
+      "title": "The Black Wolf",
+      "author": "Louise Penny",
+      "genre": "Mystery / Crime",
+      "description": "Inspector Gamache must solve a mystery in the Quebec countryside.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81M7yG0d4UL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 66,
+      "title": "The River Is Waiting",
+      "author": "Wally Lamb",
+      "genre": "Fiction",
+      "description": "A deep and emotional story about life's waiting moments.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81m-iY9z9TL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 67,
+      "title": "Good Girl, Bad Blood",
+      "author": "Holly Jackson",
+      "genre": "Mystery / Young Adult",
+      "description": "The sequel to A Good Girl's Guide to Murder.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/714h08L2KGL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 68,
+      "title": "Rock Paper Scissors",
+      "author": "Alice Feeney",
+      "genre": "Psychological Thriller",
+      "description": "A couple wins a trip to a remote getaway, but one of them is hiding a secret.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71q5gYgOaVL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 69,
+      "title": "The Restoration Garden",
+      "author": "Sara Blaydes",
+      "genre": "Historical Fiction",
+      "description": "A historical mystery centered around a hidden garden.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/61k8Q5K413L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.7
+    },
+    {
+      "id": 70,
+      "title": "The Fix",
+      "author": "Mia Sheridan",
+      "genre": "Romance / Suspense",
+      "description": "A romance novel with a dark, suspenseful undercurrent.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71k4lQWbFCL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.8
+    },
+    {
+      "id": 71,
+      "title": "Play Nice",
+      "author": "Rachel Harrison",
+      "genre": "Thriller / Horror",
+      "description": "A twisted tale of suburban rivalry and dark secrets.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/816s4sL9xPL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 72,
+      "title": "The Paris Apartment",
+      "author": "Lucy Foley",
+      "genre": "Mystery / Thriller",
+      "description": "A woman visits her brother in Paris and finds herself embroiled in a dark mystery.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81Hh82N9QjL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 73,
+      "title": "A Flicker in the Dark",
+      "author": "Stacy Willingham",
+      "genre": "Psychological Thriller",
+      "description": "A daughter of a serial killer is drawn into a new investigation.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81S1y1u7cWL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 74,
+      "title": "Culpa",
+      "author": "Bruce Holsinger",
+      "genre": "Thriller / Legal Fiction",
+      "description": "A gripping legal thriller set in a university environment.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81180N7b9WL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.8
+    },
+    {
+      "id": 75,
+      "title": "The Lost Apothecary",
+      "author": "Sarah Penner",
+      "genre": "Historical Mystery",
+      "description": "A mystery that connects women across centuries.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81h2k27xH7L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 76,
+      "title": "The Mad Wife",
+      "author": "Meagan Church",
+      "genre": "Psychological Thriller",
+      "description": "A thrilling domestic tale of madness and secrets.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/61sJ8sH95TL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.6
+    },
+    {
+      "id": 77,
+      "title": "Such Quiet Girls",
+      "author": "Noelle W. Ihli",
+      "genre": "Thriller / Crime",
+      "description": "A dark past connects three quiet girls.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81z3T8f9VBL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 78,
+      "title": "Boom Town",
+      "author": "Sam Stone",
+      "genre": "Mystery / Crime",
+      "description": "A thrilling and fast-paced crime novel.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/61M5Qj72QSL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 79,
+      "title": "The Hong Kong Widow",
+      "author": "Kristin Tosch",
+      "genre": "Thriller / Suspense",
+      "description": "A gripping thriller set in the bustling city of Hong Kong.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71c9Lp0LwSL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.7
+    },
+    {
+      "id": 80,
+      "title": "Defiant (Skyward #4)",
+      "author": "Brandon Sanderson",
+      "genre": "Science Fiction / Young Adult",
+      "description": "The final book in the Skyward series, a space epic.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81Y7nF9DqQL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 81,
+      "title": "Better Luck Next Time",
+      "author": "Cara Bastone",
+      "genre": "Romance / Science Fiction",
+      "description": "A lighthearted sci-fi romance audible original.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/817R4d6oN3L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 82,
+      "title": "The Primal Hunter 4",
+      "author": "Zogarth",
+      "genre": "Science Fiction / LitRPG",
+      "description": "Book 4 of the popular LitRPG series.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81pY7r1X1yL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.6
+    },
+    {
+      "id": 83,
+      "title": "The Primal Hunter 5",
+      "author": "Zogarth",
+      "genre": "Science Fiction / LitRPG",
+      "description": "Book 5 of the popular LitRPG series.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81pY7r1X1yL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.6
+    },
+    {
+      "id": 84,
+      "title": "The Primal Hunter 6",
+      "author": "Zogarth",
+      "genre": "Science Fiction / LitRPG",
+      "description": "Book 6 of the popular LitRPG series.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81pY7r1X1yL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.6
+    },
+    {
+      "id": 85,
+      "title": "Livesuit (Expanse Novella)",
+      "author": "James S. A. Corey",
+      "genre": "Science Fiction / Space Opera",
+      "description": "A novella set in the universe of The Expanse.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81pY7r1X1yL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 86,
+      "title": "Shroud",
+      "author": "Adrian Tchaikovsky",
+      "genre": "Science Fiction / Biopunk",
+      "description": "A thrilling and complex sci-fi adventure.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71u9c-d0Q5L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 87,
+      "title": "On Destiny",
+      "author": "Kaitlin Trinh",
+      "genre": "Science Fiction / Young Adult",
+      "description": "A YA sci-fi novel about fate and choice.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71rQ6S-3oLL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.8
+    },
+    {
+      "id": 88,
+      "title": "Martha Wells: Queen of Demon",
+      "author": "Martha Wells",
+      "genre": "Science Fiction / Fantasy",
+      "description": "A collection of stories from a master of the genre.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81M7yG0d4UL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 89,
+      "title": "Notes on Infinity",
+      "author": "Austin Taylor",
+      "genre": "Science Fiction",
+      "description": "A contemplative sci-fi novel about the limits of knowledge.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71s8p0yHkBL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 90,
+      "title": "Maybe This Time",
+      "author": "Cara Bastone",
+      "genre": "Romance / Science Fiction",
+      "description": "Another sci-fi romance audible original.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/817R4d6oN3L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 91,
+      "title": "The First Family: Granger",
+      "author": "Erica Calloway",
+      "genre": "Science Fiction / Thriller",
+      "description": "A futuristic thriller about a powerful dynasty.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81pY7r1X1yL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 92,
+      "title": "The Delver",
+      "author": "Tiffany Roberts",
+      "genre": "Science Fiction / Romance",
+      "description": "A sci-fi romance set in a hostile alien environment.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81pY7r1X1yL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.7
+    },
+    {
+      "id": 93,
+      "title": "Hole in the Sky",
+      "author": "Daniel H. Wilson",
+      "genre": "Science Fiction / Post-Apocalyptic",
+      "description": "A gripping post-apocalyptic survival story.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71O0u0Z+cEL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 94,
+      "title": "The Year of the Locust",
+      "author": "Jeremy Robinson",
+      "genre": "Science Fiction / Thriller",
+      "description": "A massive, globe-trotting sci-fi thriller.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 95,
+      "title": "Artifact",
+      "author": "Jeremy Robinson",
+      "genre": "Science Fiction / Action",
+      "description": "An action-packed sci-fi novel about ancient technology.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71+2d-W44tL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 96,
+      "title": "The Primal Hunter 7",
+      "author": "Zogarth",
+      "genre": "Science Fiction / LitRPG",
+      "description": "Book 7 of the popular LitRPG series.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81pY7r1X1yL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.6
+    },
+    {
+      "id": 97,
+      "title": "The Path of Ascension",
+      "author": "C. M. Mantis",
+      "genre": "Science Fiction / LitRPG",
+      "description": "Book 3 of the Path of Ascension series.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81pY7r1X1yL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 98,
+      "title": "Lightbreakers",
+      "author": "Aja Gabel",
+      "genre": "Science Fiction / Dystopian",
+      "description": "A novel about a society where light is scarce.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 99,
+      "title": "Future Proof",
+      "author": "Jennifer Estep",
+      "genre": "Science Fiction / Fantasy",
+      "description": "A blend of sci-fi and fantasy in a high-tech world.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 100,
+      "title": "Only Rogue Action",
+      "author": "Ilona Andrews",
+      "genre": "Urban Fantasy / Science Fiction",
+      "description": "A new story from the beloved writing duo Ilona Andrews.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 101,
+      "title": "Carls Doomsday Scenario",
+      "author": "Matt Dinniman",
+      "genre": "Science Fiction / LitRPG",
+      "description": "A LitRPG adventure about surviving a cosmic game show.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71+2d-W44tL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.7
+    },
+    {
+      "id": 102,
+      "title": "3 Days, 9 Months, 27 Years",
+      "author": "John Scalzi",
+      "genre": "Science Fiction",
+      "description": "A collection of thrilling short stories.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81D+6w-w1XL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 103,
+      "title": "Making Space",
+      "author": "R. F. Kuang",
+      "genre": "Science Fiction",
+      "description": "A powerful sci-fi novel from the author of The Poppy War.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81pY7r1X1yL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 104,
+      "title": "The First to Die at the End",
+      "author": "Adam Silvera",
+      "genre": "Young Adult / Science Fiction",
+      "description": "A prequel to the emotional hit 'They Both Die at the End'.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81Hh82N9QjL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.6
+    },
+    {
+      "id": 105,
+      "title": "A Guardian and a Thief",
+      "author": "Megha Majumdar",
+      "genre": "Fiction / Dystopian",
+      "description": "A powerful story of class, ambition, and corruption.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71R377l1HqL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 106,
+      "title": "A Psalm for the Wild-Built",
+      "author": "Becky Chambers",
+      "genre": "Science Fiction / Hopepunk",
+      "description": "A monk and a robot meet in a heartwarming future.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71VjXyP+XhL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 107,
+      "title": "The Poppy Fields",
+      "author": "Nikki Erlick",
+      "genre": "Science Fiction / Literary",
+      "description": "A novel about a shared global phenomenon and its impact.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71o39z3o7oL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 108,
+      "title": "Sea of Tranquility",
+      "author": "Emily St. John Mandel",
+      "genre": "Science Fiction / Time Travel",
+      "description": "A profound novel spanning centuries and connecting distant lives.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/718yW8u2MKL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 109,
+      "title": "Fugitive Telemetry",
+      "author": "Martha Wells",
+      "genre": "Science Fiction / Mystery",
+      "description": "A Murderbot Diaries novella featuring a murder mystery.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/717v2-t4x4L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 110,
+      "title": "Don't Let Him In",
+      "author": "Lisa Jewell",
+      "genre": "Mystery / Thriller",
+      "description": "A novel about secrets, family, and a dangerous arrival.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/719h8p6bSjL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 111,
+      "title": "None of This Is True",
+      "author": "Lisa Jewell",
+      "genre": "Psychological Thriller",
+      "description": "A dark, twisting novel about two women who meet by chance.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71N+t1mN85L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 112,
+      "title": "Nobody's Girl",
+      "author": "Virginia Roberts Giuffre",
+      "genre": "Memoir / True Crime",
+      "description": "A woman's search for justice and survival.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/611D3lC9VVL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.6
+    },
+    {
+      "id": 113,
+      "title": "The Proving Ground",
+      "author": "Michael Connelly",
+      "genre": "Crime / Legal Thriller",
+      "description": "Detective Hieronymus 'Harry' Bosch returns.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/7187qM3H-GL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 114,
+      "title": "The Black Wolf",
+      "author": "Louise Penny",
+      "genre": "Mystery / Crime",
+      "description": "Chief Inspector Gamache investigates a complex murder.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81M7yG0d4UL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 115,
+      "title": "The Guest List (Lucy Foley)",
+      "author": "Lucy Foley",
+      "genre": "Mystery / Suspense",
+      "description": "A wedding on a remote island goes terribly wrong.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/7187qM3H-GL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 116,
+      "title": "She Didn't See It Coming",
+      "author": "Shari Lapena",
+      "genre": "Psychological Thriller",
+      "description": "A fast-paced thriller about a dangerous obsession.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 117,
+      "title": "Hidden Pictures",
+      "author": "Jason Rekulak",
+      "genre": "Horror / Mystery",
+      "description": "A chilling novel where a summer job turns into a nightmare.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81D+6w-w1XL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 118,
+      "title": "What She Saw",
+      "author": "Mary Burton",
+      "genre": "Thriller / Crime",
+      "description": "A determined detective chases a cold case killer.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71VjXyP+XhL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.8
+    },
+    {
+      "id": 119,
+      "title": "Local Woman Missing",
+      "author": "Mary Kubica",
+      "genre": "Psychological Thriller",
+      "description": "A riveting story about a missing woman and a daughter's search for answers.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71qS2Y47dCL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 120,
+      "title": "All the Colors of the Dark",
+      "author": "Chris Whitaker",
+      "genre": "Fiction / Mystery",
+      "description": "A poignant mystery about a boy's search for the truth.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81rFfXj-n7L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 121,
+      "title": "Home Before Dark",
+      "author": "Riley Sager",
+      "genre": "Horror / Mystery",
+      "description": "A woman returns to the haunted house that inspired her father's true crime novel.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71R7k2NqfML._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 122,
+      "title": "The Hallmarked",
+      "author": "J.K. Rowling (Galbraith)",
+      "genre": "Mystery / Detective",
+      "description": "Cormoran Strike investigates a new case.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71L54qH-m2L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 123,
+      "title": "A Flicker in the Dark (S.W.)",
+      "author": "Stacy Willingham",
+      "genre": "Psychological Thriller",
+      "description": "A daughter of a serial killer is drawn into a new investigation.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81S1y1u7cWL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 124,
+      "title": "Love, Mom",
+      "author": "Iliana Xander",
+      "genre": "Thriller / Suspense",
+      "description": "A suspenseful read about a mother's dark past.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/713vU-o5rXL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.7
+    },
+    {
+      "id": 125,
+      "title": "Do You Remember?",
+      "author": "Freida McFadden",
+      "genre": "Psychological Thriller",
+      "description": "A gripping tale of amnesia and hidden truth.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71R2cE8W2rL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 126,
+      "title": "Ask for Andrea",
+      "author": "Noelle W. Ihli",
+      "genre": "Thriller / Suspense",
+      "description": "A terrifying case of mistaken identity.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 127,
+      "title": "Such Quiet Girls (N.W.I.)",
+      "author": "Noelle W. Ihli",
+      "genre": "Thriller / Crime",
+      "description": "A dark past connects three quiet girls.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81z3T8f9VBL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 128,
+      "title": "The Woman in Cabin 10 (R.W.)",
+      "author": "Ruth Ware",
+      "genre": "Mystery / Suspense",
+      "description": "A journalist witnesses a body thrown overboard from a cruise ship.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81B-j-l1tML._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 129,
+      "title": "Nightshade",
+      "author": "Michael Connelly",
+      "genre": "Crime / Mystery",
+      "description": "A new cold case challenges Detective Harry Bosch.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71rB8p94L8L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 130,
+      "title": "Too Old for This",
+      "author": "Samantha Downing",
+      "genre": "Thriller / Dark Comedy",
+      "description": "A dark and humorous thriller about retirement gone wrong.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81m-iY9z9TL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 131,
+      "title": "Tell Me What You Did",
+      "author": "Carter Wilson",
+      "genre": "Thriller / Suspense",
+      "description": "A novel of guilt, memory, and suspense.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71M5Qj72QSL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.8
+    },
+    {
+      "id": 132,
+      "title": "She's Not Sorry",
+      "author": "Mary Kubica",
+      "genre": "Psychological Thriller",
+      "description": "A gripping novel about a nurse who suspects one of her patients is a killer.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71q5gYgOaVL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 133,
+      "title": "Wanting Daisy Dead",
+      "author": "Sue Watson",
+      "genre": "Domestic Thriller",
+      "description": "A thrilling tale of neighborhood rivalry.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/61k8Q5K413L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.7
+    },
+    {
+      "id": 134,
+      "title": "Crazy Love",
+      "author": "Kathy Lockheart",
+      "genre": "Romance / Suspense",
+      "description": "A passionate romance with a dangerous twist.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71k4lQWbFCL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.5
+    },
+    {
+      "id": 135,
+      "title": "Night She Disappeared",
+      "author": "Lisa Jewell",
+      "genre": "Mystery / Suspense",
+      "description": "A gripping novel about a young couple who vanish.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 136,
+      "title": "Hidden Nature",
+      "author": "Nora Roberts",
+      "genre": "Romantic Suspense",
+      "description": "A suspenseful romance set in the wilderness.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71L54qH-m2L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 137,
+      "title": "King of Ashes",
+      "author": "S.A. Cosby",
+      "genre": "Crime / Thriller",
+      "description": "A gritty and powerful crime novel.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71R377l1HqL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 138,
+      "title": "Gray After Dark",
+      "author": "Noelle W. Ihli",
+      "genre": "Thriller / Suspense",
+      "description": "A woman wakes up to a world of darkness and mystery.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71M5Qj72QSL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 139,
+      "title": "Parents Weekend",
+      "author": "Alex Finlay",
+      "genre": "Mystery / Thriller",
+      "description": "A deadly weekend at a prestigious university.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81S1y1u7cWL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 140,
+      "title": "Beyond Her Reach",
+      "author": "Melinda Leigh",
+      "genre": "Mystery / Crime",
+      "description": "A detective must protect a witness from a powerful enemy.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71k4lQWbFCL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 141,
+      "title": "The Many Lives of Mama Love",
+      "author": "Lara Love Hardin",
+      "genre": "Memoir / True Crime",
+      "description": "A woman's journey through addiction and the justice system.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71YyM9lS+UL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 142,
+      "title": "Finlay Donovan Is Killing It",
+      "author": "Elle Cosimano",
+      "genre": "Mystery / Comedy",
+      "description": "A mystery writer is mistaken for a contract killer.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71R2cE8W2rL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 143,
+      "title": "Her First Mistake",
+      "author": "Kendra Elliot",
+      "genre": "Thriller / Suspense",
+      "description": "A suspenseful tale of hidden identities.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71o39z3o7oL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 144,
+      "title": "The Family Remains",
+      "author": "Lisa Jewell",
+      "genre": "Mystery / Thriller",
+      "description": "The continuation of the gripping 'The Family Upstairs' series.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 145,
+      "title": "The Idaho Four",
+      "author": "James Patterson & Vicky Ward",
+      "genre": "True Crime",
+      "description": "An investigation into a high-profile, tragic crime.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/719h8p6bSjL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 146,
+      "title": "Framed in Death",
+      "author": "J.D. Robb",
+      "genre": "Mystery / Police Procedural",
+      "description": "The latest in the futuristic Eve Dallas series.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71N+t1mN85L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 147,
+      "title": "The Killing Stones",
+      "author": "Ann Cleeves",
+      "genre": "Mystery / Crime",
+      "description": "A new case for the beloved Vera Stanhope.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/611D3lC9VVL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 148,
+      "title": "Last One Out",
+      "author": "Jane Harper",
+      "genre": "Mystery / Suspense",
+      "description": "A gripping novel set in the Australian wilderness.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/7187qM3H-GL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 149,
+      "title": "The Wrong Sister",
+      "author": "Claire Douglas",
+      "genre": "Psychological Thriller",
+      "description": "A twisting thriller about sisterhood and deep betrayal.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 150,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Classics / Romance",
+      "description": "The story of Elizabeth Bennet and Mr. Darcy.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.6
+    },
+    {
+      "id": 151,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classics / Fiction",
+      "description": "A novel illustrating the Roaring Twenties in America.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 152,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Classics / Southern Gothic",
+      "description": "A classic story of justice and prejudice in the Deep South.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/717v2-t4x4L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 153,
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "genre": "Classics / Gothic",
+      "description": "The autobiography of the passionate and principled Jane Eyre.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71o39z3o7oL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 154,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Classics / Dystopian",
+      "description": "A cautionary tale about totalitarianism and surveillance.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/611jE-t3Q0L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.4
+    },
+    {
+      "id": 155,
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "genre": "Classics / Gothic",
+      "description": "A dark, passionate love story set on the windy Yorkshire moors.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71qS2Y47dCL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 156,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "genre": "Classics / Gothic",
+      "description": "A man trades his soul for eternal youth and beauty.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/715QeQ1T+VL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 157,
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "genre": "Classics / Allegory",
+      "description": "A satirical fable about the corruption of socialist ideals.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81-0T0k2dXL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 158,
+      "title": "The Catcher in the Rye",
+      "author": "J. D. Salinger",
+      "genre": "Classics / Coming-of-Age",
+      "description": "The story of teenage angst and alienation.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81qEw7+5wUL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 159,
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "genre": "Classics / Domestic Fiction",
+      "description": "A charming tale about the lives of the four March sisters.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/718yW8u2MKL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 160,
+      "title": "Frankenstein; or, The Modern Prometheus",
+      "author": "Mary Shelley",
+      "genre": "Classics / Gothic / Horror",
+      "description": "Victor Frankenstein's scientific creation goes terribly wrong.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81B-j-l1tML._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 1.3
+    },
+    {
+      "id": 161,
+      "title": "Lord of the Flies",
+      "author": "William Golding",
+      "genre": "Classics / Allegory",
+      "description": "Schoolboys stranded on an island descend into savagery.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/7187qM3H-GL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 162,
+      "title": "Of Mice and Men",
+      "author": "John Steinbeck",
+      "genre": "Classics / Social Realism",
+      "description": "A tragic story of two migrant workers during the Great Depression.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/719h8p6bSjL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 163,
+      "title": "Sense and Sensibility",
+      "author": "Jane Austen",
+      "genre": "Classics / Romance",
+      "description": "The story of the Dashwood sisters and their pursuit of love.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81M7yG0d4UL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 2.5
+    },
+    {
+      "id": 164,
+      "title": "WARD D",
+      "author": "Freida McFadden",
+      "genre": "Horror / Thriller",
+      "description": "A terrifying thriller set in a hospital ward.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71q5gYgOaVL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 165,
+      "title": "That's Not My Name",
+      "author": "Megan Lally",
+      "genre": "Thriller / Psychological",
+      "description": "A suspenseful read about identity and deception.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81rFfXj-n7L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 166,
+      "title": "The Locked Door",
+      "author": "Freida McFadden",
+      "genre": "Thriller / Mystery",
+      "description": "A twisty thriller about a daughter discovering her father's past.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81D+6w-w1XL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.4
+    },
+    {
+      "id": 167,
+      "title": "One by One",
+      "author": "Freida McFadden",
+      "genre": "Mystery / Suspense",
+      "description": "A chilling survival thriller where guests disappear one by one.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81M7yG0d4UL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.2
+    },
+    {
+      "id": 168,
+      "title": "One Dark Window",
+      "author": "Rachel Gillig",
+      "genre": "Fantasy / Gothic",
+      "description": "A dark fantasy romance with a mysterious curse.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/714R8XW1dUL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 169,
+      "title": "Bury Your Bones in the Midnight Soil",
+      "author": "V. E. Schwab",
+      "genre": "Horror / Dark Fantasy",
+      "description": "A dark, atmospheric story set in a world of unsettling magic.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71N+t1mN85L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    },
+    {
+      "id": 170,
+      "title": "You Shouldn't Have Come Here",
+      "author": "Jeneva Rose",
+      "genre": "Psychological Thriller",
+      "description": "A woman's romantic getaway turns into a fight for survival.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71R7k2NqfML._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 171,
+      "title": "Anathema",
+      "author": "Keri Lake",
+      "genre": "Dark Fantasy / Horror",
+      "description": "A terrifying tale of supernatural forces and forbidden love.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71M5Qj72QSL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 1.9
+    },
+    {
+      "id": 172,
+      "title": "The Last One at the Wedding",
+      "author": "Jason Rekulak",
+      "genre": "Mystery / Suspense",
+      "description": "A suspenseful story set around a fateful wedding day.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/611D3lC9VVL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 2.8
+    },
+    {
+      "id": 173,
+      "title": "Home Before Dark (Riley Sager)",
+      "author": "Riley Sager",
+      "genre": "Horror / Mystery",
+      "description": "A woman returns to the house her father made famous in a true crime book.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71Y-oDqj8rL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.2
+    },
+    {
+      "id": 174,
+      "title": "Five Survive",
+      "author": "Holly Jackson",
+      "genre": "Young Adult Thriller",
+      "description": "Five friends trapped in an RV during a spring break trip.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71R2cE8W2rL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.5
+    },
+    {
+      "id": 175,
+      "title": "The Mad Wife (M.C.)",
+      "author": "Meagan Church",
+      "genre": "Psychological Thriller",
+      "description": "A thrilling domestic tale of madness and secrets.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/61sJ8sH95TL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.6
+    },
+    {
+      "id": 176,
+      "title": "Hansel and Gretel",
+      "author": "Stephen King (Illustrated by Maurice Sendak)",
+      "genre": "Horror / Fairytale",
+      "description": "A dark, illustrated retelling of the classic fairytale.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81pY7r1X1yL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4
+    },
+    {
+      "id": 177,
+      "title": "The Haunting of Paynes Hollow",
+      "author": "Kelley Armstrong",
+      "genre": "Horror / Supernatural",
+      "description": "A gripping tale of a town plagued by ghosts and dark history.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81z7Y6Z4L3L._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.1
+    },
+    {
+      "id": 178,
+      "title": "Don't Let Her Stay",
+      "author": "Nicola Rayner",
+      "genre": "Psychological Thriller",
+      "description": "A disturbing tale of a manipulative lodger and a family's disintegration.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/71xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 3.9
+    },
+    {
+      "id": 179,
+      "title": "The Art Thief",
+      "author": "Michael Finkel",
+      "genre": "True Crime",
+      "description": "The true story of the world's most daring art thief.",
+      "cover_image_url": "https://m.media-amazon.com/images/I/81xUe8z5+xL._AC_UF1000,1000_QL80_.jpg",
+      "average_rating": 4.3
+    }
+  ]
+}
