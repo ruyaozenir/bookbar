@@ -393,7 +393,7 @@ UI Update
 
 UML Diagram:
 
-![Use Case Diagram](docs/images/use-case-diagram.png)
+![Use Case Diagram](resimler/ekran görüntüleri/use-case-diagram.png)
 
 ### UC1: User Registration
 **Actor**: New User  
