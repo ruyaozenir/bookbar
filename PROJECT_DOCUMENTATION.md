@@ -391,6 +391,10 @@ UI Update
 
 ## 📊 Use Cases
 
+UML Diagram:
+
+![Use Case Diagram](docs/images/use-case-diagram.png)
+
 ### UC1: User Registration
 **Actor**: New User  
 **Precondition**: User is not registered  
