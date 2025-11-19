@@ -392,8 +392,7 @@ UI Update
 ## 📊 Use Cases
 
 UML Diagram:
-
-![Use Case Diagram](resimler/ekran görüntüleri/use-case-diagram.png)
+Check the UML DIAGRAM-USE CASE FOLDER!!
 
 ### UC1: User Registration
 **Actor**: New User  
