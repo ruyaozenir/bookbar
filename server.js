@@ -992,6 +992,47 @@ app.put('/api/users/password', authenticateToken, async (req, res) => {
     }
 });
 
+// Get all users (optional auth for demo mode)
+app.get('/api/users', async (req, res) => {
+    const { page = 1, limit = 50 } = req.query;
+    const offset = (parseInt(page) - 1) * parseInt(limit);
+    
+    try {
+        // Check if user is authenticated
+        const authHeader = req.headers['authorization'];
+        const token = authHeader && authHeader.split(' ')[1];
+        
+        if (token) {
+            try {
+                const decoded = jwt.verify(token, JWT_SECRET);
+                req.user = decoded;
+                
+                // User is authenticated, get all users from database
+                const [users] = await pool.execute(
+                    'SELECT id, name, username, email, bio, avatar, createdAt FROM users ORDER BY createdAt DESC LIMIT ? OFFSET ?',
+                    [parseInt(limit), offset]
+                );
+                
+                // Get total count
+                const [countResult] = await pool.execute('SELECT COUNT(*) as total FROM users');
+                const total = countResult[0].total;
+                
+                return res.json({ success: true, users, total, page: parseInt(page), limit: parseInt(limit) });
+            } catch (jwtError) {
+                // Invalid token, continue to demo mode
+                console.log('Invalid token, using demo mode');
+            }
+        }
+        
+        // Demo mode or no token - return empty results (client will use demo data)
+        res.json({ success: true, users: [], total: 0, page: parseInt(page), limit: parseInt(limit) });
+    } catch (error) {
+        console.error('Get users error:', error);
+        // On error, return empty results (client will use demo data)
+        res.json({ success: true, users: [], total: 0, page: parseInt(page), limit: parseInt(limit) });
+    }
+});
+
 // Search users (optional auth for demo mode)
 app.get('/api/users/search', async (req, res) => {
     const { q } = req.query;

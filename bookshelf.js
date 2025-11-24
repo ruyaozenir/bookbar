@@ -156,6 +156,7 @@ class VirtualBookshelf {
         this.currentView = 'covers';
         this.currentViewMode = 'all'; // 'all', 'favorites', 'authors'
         this.currentPage = 1;
+        this.currentPeoplePage = 1;
         this.booksPerPage = 50;
         this.sortOrder = 'custom';
         this.sortDirection = 'desc';
@@ -6236,66 +6237,246 @@ This operation cannot be undone.`;
             <div class="people-page" style="max-width: 800px; margin: 0 auto;">
                 <div class="people-header" style="margin-bottom: 2rem;">
                     <h2 style="margin: 0 0 1rem 0; color: #2c3e50; font-size: 1.8rem; font-weight: 600;">Find People</h2>
-                    <div class="search-box" style="position: relative;">
-                        <input type="text" id="people-search-input" placeholder="Search by username..." 
-                               style="width: 100%; padding: 1rem 1rem 1rem 3rem; border: 2px solid #e8ecf1; border-radius: 10px; font-size: 1rem; transition: all 0.3s;"
-                               onfocus="this.style.borderColor='#667eea'; this.style.boxShadow='0 0 0 3px rgba(102, 126, 234, 0.1)'"
-                               onblur="this.style.borderColor='#e8ecf1'; this.style.boxShadow='none'">
-                        <span style="position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); color: #7f8c8d; font-size: 1.2rem;">🔍</span>
-                    </div>
                 </div>
                 <div id="people-results" class="people-results" style="display: grid; gap: 1rem;">
                     <div style="text-align: center; padding: 3rem; color: #7f8c8d;">
-                        <p style="font-size: 1.1rem;">Start typing to search for users...</p>
+                        <p style="font-size: 1.1rem;">Loading users...</p>
                     </div>
+                </div>
+                <div id="people-pagination" style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin-top: 2rem;">
                 </div>
             </div>
         `;
         
-        // Wait for DOM to be ready before adding event listener
-        setTimeout(() => {
-            const searchInput = document.getElementById('people-search-input');
-            if (searchInput) {
-                let searchTimeout;
-                searchInput.addEventListener('input', (e) => {
-                    clearTimeout(searchTimeout);
-                    const query = e.target.value.trim();
-                    
-                    console.log('Search input changed:', query);
-                    
-                    if (query.length < 2) {
-                        const resultsDiv = document.getElementById('people-results');
-                        if (resultsDiv) {
-                            resultsDiv.innerHTML = `
-                                <div style="text-align: center; padding: 3rem; color: #7f8c8d;">
-                                    <p style="font-size: 1.1rem;">Start typing to search for users...</p>
-                                </div>
-                            `;
-                        }
+        // Load all users immediately
+        this.currentPeoplePage = 1;
+        this.loadAllUsers(1);
+    }
+    
+    async loadAllUsers(page = 1) {
+        const resultsDiv = document.getElementById('people-results');
+        if (!resultsDiv) {
+            console.error('people-results div not found!');
+            return;
+        }
+        
+        resultsDiv.innerHTML = '<div style="text-align: center; padding: 2rem; color: #7f8c8d;">Loading users...</div>';
+        
+        try {
+            const token = localStorage.getItem('bookbar_token');
+            const response = await fetch(`/api/users?page=${page}&limit=20`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                    ...(token ? { 'Authorization': `Bearer ${token}` } : {})
+                }
+            });
+            
+            let users = [];
+            let total = 0;
+            let totalPages = 1;
+            
+            try {
+                if (response.ok) {
+                    const contentType = response.headers.get('content-type');
+                    if (contentType && contentType.includes('application/json')) {
+                        const data = await response.json();
+                        users = data.users || [];
+                        total = data.total || 0;
+                        totalPages = Math.ceil(total / (data.limit || 20));
+                    } else {
+                        console.log('Server returned HTML instead of JSON, using demo mode');
+                        users = [];
+                    }
+                } else if (response.status === 401 || response.status === 403) {
+                    console.log('Not authenticated, using demo mode');
+                    users = [];
+                } else {
+                    console.log('Response not OK, using demo mode');
+                    users = [];
+                }
+            } catch (parseError) {
+                console.log('Error parsing response, using demo mode:', parseError);
+                users = [];
+            }
+            
+            // If no users from API, use demo mode
+            if (users.length === 0) {
+                const demoUsers = [
+                    { id: 1, username: 'booklover123', name: 'Book Lover', email: 'booklover@example.com', bio: 'Fantasy and sci-fi enthusiast' },
+                    { id: 2, username: 'reader2024', name: 'Reader 2024', email: 'reader@example.com', bio: 'Love mystery novels' },
+                    { id: 3, username: 'literaturefan', name: 'Literature Fan', email: 'litfan@example.com', bio: 'Classic literature collector' },
+                    { id: 4, username: 'rüya', name: 'Rüya', email: 'ruya@example.com', bio: 'Book enthusiast' }
+                ];
+                users = demoUsers;
+                total = demoUsers.length;
+                totalPages = 1;
+            }
+            
+            if (users.length === 0) {
+                resultsDiv.innerHTML = `
+                    <div style="text-align: center; padding: 3rem; color: #7f8c8d;">
+                        <p style="font-size: 1.1rem;">No users found</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            resultsDiv.innerHTML = users.filter(user => user && (user.id || user.username || user.name)).map(user => {
+                const username = user.username || user.name || 'Unknown';
+                const userId = user.id || 0;
+                const avatarLetter = username && username.length > 0 ? username[0].toUpperCase() : 'U';
+                
+                return `
+                <div class="user-card" data-user-id="${userId}" style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; align-items: center; gap: 1.5rem; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;" 
+                     onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)'"
+                     onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.1)'">
+                    <div class="user-avatar" style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700; color: white; font-family: 'Cinzel', serif; flex-shrink: 0;">
+                        ${avatarLetter}
+                    </div>
+                    <div style="flex: 1;">
+                        <h3 style="margin: 0 0 0.25rem 0; color: #2c3e50; font-size: 1.2rem; font-weight: 600;">${this.escapeHtml(username)}</h3>
+                        ${user.bio ? `<p style="margin: 0; color: #7f8c8d; font-size: 0.9rem;">${this.escapeHtml(user.bio)}</p>` : ''}
+                    </div>
+                    <button class="btn-follow" data-user-id="${userId}" data-is-following="false" style="padding: 0.5rem 1.5rem; background: #667eea; border: none; border-radius: 8px; color: white; font-weight: 500; font-size: 0.9rem; cursor: pointer; transition: background 0.2s;">
+                        Follow
+                    </button>
+                </div>
+            `;
+            }).join('');
+            
+            // Add click handlers for user cards (open profile)
+            resultsDiv.querySelectorAll('.user-card').forEach(card => {
+                card.addEventListener('click', async (e) => {
+                    if (e.target.classList.contains('btn-follow') || e.target.closest('.btn-follow')) {
                         return;
                     }
-                    
-                    searchTimeout = setTimeout(() => {
-                        console.log('Calling searchUsers with query:', query);
-                        this.searchUsers(query);
-                    }, 300);
-                });
-                
-                // Also handle Enter key
-                searchInput.addEventListener('keypress', (e) => {
-                    if (e.key === 'Enter') {
-                        e.preventDefault();
-                        clearTimeout(searchTimeout);
-                        const query = e.target.value.trim();
-                        if (query.length >= 2) {
-                            this.searchUsers(query);
-                        }
+                    const userId = parseInt(card.getAttribute('data-user-id'));
+                    if (userId) {
+                        await this.showUserProfile(userId);
                     }
                 });
-            } else {
-                console.error('Search input element not found!');
+            });
+            
+            // Add click handlers for follow buttons
+            resultsDiv.querySelectorAll('.btn-follow').forEach(btn => {
+                btn.addEventListener('click', async (e) => {
+                    e.stopPropagation();
+                    const userId = parseInt(btn.getAttribute('data-user-id'));
+                    const isFollowing = btn.getAttribute('data-is-following') === 'true';
+                    await this.toggleFollow(userId, btn, isFollowing);
+                });
+            });
+            
+            // Check follow status for each user
+            const currentUser = JSON.parse(localStorage.getItem('bookbar_user') || '{}');
+            if (currentUser.id && users && users.length > 0) {
+                const followStatusPromises = users
+                    .filter(user => user && user.id)
+                    .map(async (user) => {
+                        const btn = resultsDiv.querySelector(`.btn-follow[data-user-id="${user.id}"]`);
+                        if (btn) {
+                            try {
+                                const isFollowing = await this.checkFollowStatus(user.id);
+                                btn.setAttribute('data-is-following', isFollowing ? 'true' : 'false');
+                                if (isFollowing) {
+                                    btn.textContent = 'Following';
+                                    btn.style.background = '#95a5a6';
+                                }
+                            } catch (error) {
+                                console.error(`Error checking follow status for user ${user.id}:`, error);
+                            }
+                        }
+                    });
+                await Promise.all(followStatusPromises);
             }
-        }, 100);
+            
+            // Update pagination
+            this.updatePeoplePagination(page, totalPages);
+            
+        } catch (error) {
+            console.error('Error loading users:', error);
+            resultsDiv.innerHTML = `
+                <div style="text-align: center; padding: 3rem; color: #e74c3c;">
+                    <p style="font-size: 1.1rem;">Error loading users. Please try again.</p>
+                </div>
+            `;
+        }
+    }
+    
+    updatePeoplePagination(currentPage, totalPages) {
+        const paginationDiv = document.getElementById('people-pagination');
+        if (!paginationDiv || totalPages <= 1) {
+            if (paginationDiv) paginationDiv.innerHTML = '';
+            return;
+        }
+        
+        let paginationHTML = '';
+        
+        // Previous button
+        paginationHTML += `
+            <button id="people-prev" ${currentPage === 1 ? 'disabled' : ''} 
+                    style="padding: 0.5rem 1rem; border: 1px solid #e8ecf1; border-radius: 8px; background: ${currentPage === 1 ? '#f5f5f5' : 'white'}; color: ${currentPage === 1 ? '#bdc3c7' : '#2c3e50'}; cursor: ${currentPage === 1 ? 'not-allowed' : 'pointer'}; font-size: 0.9rem;">
+                Previous
+            </button>
+        `;
+        
+        // Page numbers
+        for (let i = 1; i <= totalPages; i++) {
+            if (i === 1 || i === totalPages || (i >= currentPage - 1 && i <= currentPage + 1)) {
+                paginationHTML += `
+                    <button class="people-page-btn" data-page="${i}" 
+                            style="padding: 0.5rem 1rem; border: 1px solid #e8ecf1; border-radius: 8px; background: ${i === currentPage ? '#667eea' : 'white'}; color: ${i === currentPage ? 'white' : '#2c3e50'}; cursor: pointer; font-size: 0.9rem; font-weight: ${i === currentPage ? '600' : '400'};">
+                        ${i}
+                    </button>
+                `;
+            } else if (i === currentPage - 2 || i === currentPage + 2) {
+                paginationHTML += `<span style="padding: 0.5rem; color: #7f8c8d;">...</span>`;
+            }
+        }
+        
+        // Next button
+        paginationHTML += `
+            <button id="people-next" ${currentPage === totalPages ? 'disabled' : ''} 
+                    style="padding: 0.5rem 1rem; border: 1px solid #e8ecf1; border-radius: 8px; background: ${currentPage === totalPages ? '#f5f5f5' : 'white'}; color: ${currentPage === totalPages ? '#bdc3c7' : '#2c3e50'}; cursor: ${currentPage === totalPages ? 'not-allowed' : 'pointer'}; font-size: 0.9rem;">
+                Next
+            </button>
+        `;
+        
+        paginationDiv.innerHTML = paginationHTML;
+        
+        // Add event listeners
+        const prevBtn = document.getElementById('people-prev');
+        const nextBtn = document.getElementById('people-next');
+        const pageBtns = document.querySelectorAll('.people-page-btn');
+        
+        if (prevBtn) {
+            prevBtn.addEventListener('click', () => {
+                if (currentPage > 1) {
+                    this.currentPeoplePage = currentPage - 1;
+                    this.loadAllUsers(this.currentPeoplePage);
+                }
+            });
+        }
+        
+        if (nextBtn) {
+            nextBtn.addEventListener('click', () => {
+                if (currentPage < totalPages) {
+                    this.currentPeoplePage = currentPage + 1;
+                    this.loadAllUsers(this.currentPeoplePage);
+                }
+            });
+        }
+        
+        pageBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const page = parseInt(btn.getAttribute('data-page'));
+                if (page !== currentPage) {
+                    this.currentPeoplePage = page;
+                    this.loadAllUsers(this.currentPeoplePage);
+                }
+            });
+        });
     }
     
     async searchUsers(query) {
