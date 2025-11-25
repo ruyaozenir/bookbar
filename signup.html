@@ -210,8 +210,12 @@
                     
                     <form id="signup-form">
                         <div class="form-group">
-                            <label for="signup-name">Username</label>
+                            <label for="signup-name">Name</label>
                             <input type="text" id="signup-name" required autofocus>
+                        </div>
+                        <div class="form-group">
+                            <label for="signup-username">Username</label>
+                            <input type="text" id="signup-username" required>
                         </div>
                         <div class="form-group">
                             <label for="signup-email">Email Address</label>
@@ -274,6 +278,7 @@
             e.preventDefault();
             
             const name = document.getElementById('signup-name').value;
+            const username = document.getElementById('signup-username').value;
             const email = document.getElementById('signup-email').value;
             const password = document.getElementById('signup-password').value;
             const confirmPassword = document.getElementById('signup-confirm-password').value;
@@ -292,7 +297,7 @@
             try {
                 const data = await apiRequest('/auth/register', {
                     method: 'POST',
-                    body: JSON.stringify({ name, email, password, bio: '' })
+                    body: JSON.stringify({ name, username, email, password, bio: '' })
                 });
 
                 if (data.success && data.token) {
