@@ -35,36 +35,29 @@ app.use(express.static(__dirname));
 
 async function initializeDatabase() {
     try {
-        // Aiven'da veritabanı zaten var (defaultdb), o yüzden CREATE DATABASE kısmını geçebiliriz
-        // Direkt pool oluşturuyoruz:
+        console.log('🔄 Veritabanı başlatılıyor...');
+
+        // TEK BİR POOL: Tüm ayarların (SSL, Port, Timeout) olduğu tek yer burası olmalı.
         pool = mysql.createPool({
-            host: DB_HOST,
-            user: DB_USER,
-            password: DB_PASSWORD,
-            database: DB_NAME,
-            port: DB_PORT,
+            host: 'mysql-2e9d0ad1-ozenirruya-11db.f.aivencloud.com',
+            user: 'avnadmin',
+            password: 'AVNS_TIDKZUD69cYtVvIiQKt',
+            database: 'defaultdb',
+            port: 25372,
             ssl: {
-                rejectUnauthorized: false // Aiven için ŞART
+                rejectUnauthorized: false
             },
             waitForConnections: true,
             connectionLimit: 10,
-            queueLimit: 0
+            queueLimit: 0,
+            connectTimeout: 30000 // Zaman aşımını engellemek için önemli
         });
 
-        console.log('✅ Connected to Aiven MySQL');
-        
-        // Create pool bound to the database
-        pool = mysql.createPool({
-            host: DB_HOST,
-            user: DB_USER,
-            password: DB_PASSWORD,
-            database: DB_NAME,
-            waitForConnections: true,
-            connectionLimit: 10,
-            queueLimit: 0
-        });
+        // Test bağlantısı
+        const [rows] = await pool.query('SELECT 1');
+        console.log('✅ Connected to Aiven MySQL (SSL Active)');
 
-        // Create tables
+        // 1. Users Tablosu
         await pool.query(`
             CREATE TABLE IF NOT EXISTS users (
                 id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -77,17 +70,15 @@ async function initializeDatabase() {
                 createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
         `);
-        
-        // Update avatar column to TEXT if it exists as VARCHAR (for existing databases)
+
+        // Avatar sütununu kontrol et ve güncelle
         try {
             await pool.query('ALTER TABLE users MODIFY COLUMN avatar TEXT');
         } catch (error) {
-            // Column might not exist or already be TEXT, ignore error
-            if (error.code !== 'ER_BAD_FIELD_ERROR' && error.code !== 'ER_DUP_FIELDNAME') {
-                console.warn('Could not update avatar column (may already be TEXT):', error.message);
-            }
+            // Sütun zaten TEXT ise hata vermesin diye boş bıraktık
         }
 
+        // 2. Books Tablosu
         await pool.query(`
             CREATE TABLE IF NOT EXISTS books (
                 id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -102,7 +93,6 @@ async function initializeDatabase() {
                 FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE SET NULL
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
         `);
-
         await pool.query(`
             CREATE TABLE IF NOT EXISTS reviews (
                 id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -206,11 +196,10 @@ async function initializeDatabase() {
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
         `);
 
-        console.log('✅ Connected to MySQL database');
-        console.log('✅ Database tables initialized');
+          console.log('✅ Tüm tablolar hazır ve güncel!');
     } catch (error) {
-        console.error('Database initialization error:', error);
-        process.exit(1);
+        console.error('❌ Database initialization error:', error.message);
+        // Hata durumunda server'ın kapanmaması için exit(1) eklemiyoruz.
     }
 }
 
