@@ -53,11 +53,6 @@ async function initializeDatabase() {
 
         console.log('✅ Connected to Aiven MySQL');
         
-        await connection.query(
-            `CREATE DATABASE IF NOT EXISTS \`${DB_NAME}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci`
-        );
-        await connection.end();
-
         // Create pool bound to the database
         pool = mysql.createPool({
             host: DB_HOST,
