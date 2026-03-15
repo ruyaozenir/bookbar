@@ -1,5 +1,5 @@
 // BookBar - Node.js Backend Server (MySQL Edition)
-require('dotenv').config(); // Load environment variables from .env file
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
@@ -10,30 +10,49 @@ const jwt = require('jsonwebtoken');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const JWT_SECRET = process.env.JWT_SECRET || 'bookbar-secret-key-change-in-production';
+const JWT_SECRET = process.env.JWT_SECRET || 'bookbar-secret-key';
 
-const DB_HOST = process.env.DB_HOST || 'localhost';
-const DB_USER = process.env.DB_USER || 'root';
-const DB_PASSWORD = process.env.DB_PASSWORD || '964100';
-const DB_NAME = process.env.DB_NAME || 'bookbar';
+// Aiven Bağlantı Bilgileri (Global Değişkenler)
+const DB_HOST = 'mysql-2e9d0ad1-ozenirruya-11db.f.aivencloud.com';
+const DB_USER = 'avnadmin';
+const DB_PASSWORD = 'AVNS_TIDKZUD69cYtVvIiQKt';
+const DB_NAME = 'defaultdb';
+const DB_PORT = 25372;
 
 let pool;
 
-// Middleware
-app.use(cors());
+// --- MIDDLEWARE (Sadece bir kez tanımlıyoruz) ---
+app.use(cors({
+    origin: "https://bookbar.store", // GitHub Pages adresin
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"]
+}));
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static(__dirname)); // Serve static files
+app.use(express.static(__dirname)); 
+// ------------------------------------------------
 
 async function initializeDatabase() {
     try {
-        // Ensure database exists
-        const connection = await mysql.createConnection({
+        // Aiven'da veritabanı zaten var (defaultdb), o yüzden CREATE DATABASE kısmını geçebiliriz
+        // Direkt pool oluşturuyoruz:
+        pool = mysql.createPool({
             host: DB_HOST,
             user: DB_USER,
-            password: DB_PASSWORD
+            password: DB_PASSWORD,
+            database: DB_NAME,
+            port: DB_PORT,
+            ssl: {
+                rejectUnauthorized: false // Aiven için ŞART
+            },
+            waitForConnections: true,
+            connectionLimit: 10,
+            queueLimit: 0
         });
 
+        console.log('✅ Connected to Aiven MySQL');
+        
         await connection.query(
             `CREATE DATABASE IF NOT EXISTS \`${DB_NAME}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci`
         );
